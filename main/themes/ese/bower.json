@@ -1,0 +1,26 @@
+{
+  "name": "ese",
+  "version": "1.0.0",
+  "authors": [
+    "Mtaandao"
+  ],
+  "description": "Material Design Lite Mtaandao Theme",
+  "keywords": [
+    "material",
+    "design",
+    "mtaandao",
+    "theme"
+  ],
+  "license": "MIT",
+  "homepage": "http://mtaandao.co.ke",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "material-design-lite": null
+  }
+}

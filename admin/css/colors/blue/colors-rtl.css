@@ -1,0 +1,510 @@
+/*
+ * Button mixin- creates 3d-ish button effect with correct
+ * highlights/shadows, based on a base color.
+ */
+body {
+  background: #f1f1f1;
+}
+
+/* Links */
+a {
+  color: #0073aa;
+}
+
+a:hover, a:active, a:focus {
+  color: #0096dd;
+}
+
+#media-upload a.del-link:hover,
+div.dashboard-widget-submit input:hover,
+.subsubsub a:hover,
+.subsubsub a.current:hover {
+  color: #0096dd;
+}
+
+/* Forms */
+input[type=checkbox]:checked:before {
+  color: #096484;
+}
+
+input[type=radio]:checked:before {
+  background: #096484;
+}
+
+.mn-core-ui input[type="reset"]:hover,
+.mn-core-ui input[type="reset"]:active {
+  color: #0096dd;
+}
+
+/* Core UI */
+.mn-core-ui .button-primary {
+  background: #e1a948;
+  border-color: #d39323 #bd831f #bd831f;
+  color: #fff;
+  -webkit-box-shadow: 0 1px 0 #bd831f;
+  box-shadow: 0 1px 0 #bd831f;
+  text-shadow: 0 -1px 1px #bd831f, -1px 0 1px #bd831f, 0 1px 1px #bd831f, 1px 0 1px #bd831f;
+}
+
+.mn-core-ui .button-primary:hover, .mn-core-ui .button-primary:focus {
+  background: #e3af55;
+  border-color: #bd831f;
+  color: #fff;
+  -webkit-box-shadow: 0 1px 0 #bd831f;
+  box-shadow: 0 1px 0 #bd831f;
+}
+
+.mn-core-ui .button-primary:focus {
+  -webkit-box-shadow: inset 0 1px 0 #d39323, 0 0 2px 1px #33b3db;
+  box-shadow: inset 0 1px 0 #d39323, 0 0 2px 1px #33b3db;
+}
+
+.mn-core-ui .button-primary:active {
+  background: #d39323;
+  border-color: #bd831f;
+  -webkit-box-shadow: inset 0 2px 0 #bd831f;
+  box-shadow: inset 0 2px 0 #bd831f;
+}
+
+.mn-core-ui .button-primary[disabled], .mn-core-ui .button-primary:disabled, .mn-core-ui .button-primary.button-primary-disabled, .mn-core-ui .button-primary.disabled {
+  color: #d1cdc7 !important;
+  background: #db9925 !important;
+  border-color: #bd831f !important;
+  text-shadow: none !important;
+}
+
+.mn-core-ui .button-primary.button-hero {
+  -webkit-box-shadow: 0 2px 0 #bd831f !important;
+  box-shadow: 0 2px 0 #bd831f !important;
+}
+
+.mn-core-ui .button-primary.button-hero:active {
+  -webkit-box-shadow: inset 0 3px 0 #bd831f !important;
+  box-shadow: inset 0 3px 0 #bd831f !important;
+}
+
+.mn-core-ui .mn-ui-primary {
+  color: #fff;
+  background-color: #52accc;
+}
+
+.mn-core-ui .mn-ui-text-primary {
+  color: #52accc;
+}
+
+.mn-core-ui .mn-ui-highlight {
+  color: #fff;
+  background-color: #096484;
+}
+
+.mn-core-ui .mn-ui-text-highlight {
+  color: #096484;
+}
+
+.mn-core-ui .mn-ui-notification {
+  color: #fff;
+  background-color: #e1a948;
+}
+
+.mn-core-ui .mn-ui-text-notification {
+  color: #e1a948;
+}
+
+.mn-core-ui .mn-ui-text-icon {
+  color: #e5f8ff;
+}
+
+/* List tables */
+.wrap .add-new-h2:hover,
+.wrap .page-title-action:hover,
+.tablenav .tablenav-pages a:hover,
+.tablenav .tablenav-pages a:focus {
+  color: #fff;
+  background-color: #52accc;
+}
+
+.view-switch a.current:before {
+  color: #52accc;
+}
+
+.view-switch a:hover:before {
+  color: #e1a948;
+}
+
+/* Admin Menu */
+#adminmenuback,
+#adminmenuwrap,
+#adminmenu {
+  background: #52accc;
+}
+
+#adminmenu a {
+  color: #fff;
+}
+
+#adminmenu div.mn-menu-image:before {
+  color: #e5f8ff;
+}
+
+#adminmenu a:hover,
+#adminmenu li.menu-top:hover,
+#adminmenu li.opensub > a.menu-top,
+#adminmenu li > a.menu-top:focus {
+  color: #fff;
+  background-color: #096484;
+}
+
+#adminmenu li.menu-top:hover div.mn-menu-image:before,
+#adminmenu li.opensub > a.menu-top div.mn-menu-image:before {
+  color: #fff;
+}
+
+/* Active tabs use a bottom border color that matches the page background color. */
+.about-wrap h2 .nav-tab-active,
+.nav-tab-active,
+.nav-tab-active:hover {
+  background-color: #f1f1f1;
+  border-bottom-color: #f1f1f1;
+}
+
+/* Admin Menu: submenu */
+#adminmenu .mn-submenu,
+#adminmenu .mn-has-current-submenu .mn-submenu,
+#adminmenu .mn-has-current-submenu.opensub .mn-submenu,
+.folded #adminmenu .mn-has-current-submenu .mn-submenu,
+#adminmenu a.mn-has-current-submenu:focus + .mn-submenu {
+  background: #4796b3;
+}
+
+#adminmenu li.mn-has-submenu.mn-not-current-submenu.opensub:hover:after {
+  border-left-color: #4796b3;
+}
+
+#adminmenu .mn-submenu .mn-submenu-head {
+  color: #e2ecf1;
+}
+
+#adminmenu .mn-submenu a,
+#adminmenu .mn-has-current-submenu .mn-submenu a,
+.folded #adminmenu .mn-has-current-submenu .mn-submenu a,
+#adminmenu a.mn-has-current-submenu:focus + .mn-submenu a,
+#adminmenu .mn-has-current-submenu.opensub .mn-submenu a {
+  color: #e2ecf1;
+}
+
+#adminmenu .mn-submenu a:focus, #adminmenu .mn-submenu a:hover,
+#adminmenu .mn-has-current-submenu .mn-submenu a:focus,
+#adminmenu .mn-has-current-submenu .mn-submenu a:hover,
+.folded #adminmenu .mn-has-current-submenu .mn-submenu a:focus,
+.folded #adminmenu .mn-has-current-submenu .mn-submenu a:hover,
+#adminmenu a.mn-has-current-submenu:focus + .mn-submenu a:focus,
+#adminmenu a.mn-has-current-submenu:focus + .mn-submenu a:hover,
+#adminmenu .mn-has-current-submenu.opensub .mn-submenu a:focus,
+#adminmenu .mn-has-current-submenu.opensub .mn-submenu a:hover {
+  color: #fff;
+}
+
+/* Admin Menu: current */
+#adminmenu .mn-submenu li.current a,
+#adminmenu a.mn-has-current-submenu:focus + .mn-submenu li.current a,
+#adminmenu .mn-has-current-submenu.opensub .mn-submenu li.current a {
+  color: #fff;
+}
+
+#adminmenu .mn-submenu li.current a:hover, #adminmenu .mn-submenu li.current a:focus,
+#adminmenu a.mn-has-current-submenu:focus + .mn-submenu li.current a:hover,
+#adminmenu a.mn-has-current-submenu:focus + .mn-submenu li.current a:focus,
+#adminmenu .mn-has-current-submenu.opensub .mn-submenu li.current a:hover,
+#adminmenu .mn-has-current-submenu.opensub .mn-submenu li.current a:focus {
+  color: #fff;
+}
+
+ul#adminmenu a.mn-has-current-submenu:after,
+ul#adminmenu > li.current > a.current:after {
+  border-left-color: #f1f1f1;
+}
+
+#adminmenu li.current a.menu-top,
+#adminmenu li.mn-has-current-submenu a.mn-has-current-submenu,
+#adminmenu li.mn-has-current-submenu .mn-submenu .mn-submenu-head,
+.folded #adminmenu li.current.menu-top {
+  color: #fff;
+  background: #096484;
+}
+
+#adminmenu li.mn-has-current-submenu div.mn-menu-image:before,
+#adminmenu a.current:hover div.mn-menu-image:before,
+#adminmenu li.mn-has-current-submenu a:focus div.mn-menu-image:before,
+#adminmenu li.mn-has-current-submenu.opensub div.mn-menu-image:before,
+#adminmenu li:hover div.mn-menu-image:before,
+#adminmenu li a:focus div.mn-menu-image:before,
+#adminmenu li.opensub div.mn-menu-image:before,
+.ie8 #adminmenu li.opensub div.mn-menu-image:before {
+  color: #fff;
+}
+
+/* Admin Menu: bubble */
+#adminmenu .awaiting-mod,
+#adminmenu .update-plugins {
+  color: #fff;
+  background: #e1a948;
+}
+
+#adminmenu li.current a .awaiting-mod,
+#adminmenu li a.mn-has-current-submenu .update-plugins,
+#adminmenu li:hover a .awaiting-mod,
+#adminmenu li.menu-top:hover > a .update-plugins {
+  color: #fff;
+  background: #4796b3;
+}
+
+/* Admin Menu: collapse button */
+#collapse-button {
+  color: #e5f8ff;
+}
+
+#collapse-button:hover,
+#collapse-button:focus {
+  color: #fff;
+}
+
+/* Admin Bar */
+#mnadminbar {
+  color: #fff;
+  background: #52accc;
+}
+
+#mnadminbar .ab-item,
+#mnadminbar a.ab-item,
+#mnadminbar > #mn-toolbar span.ab-label,
+#mnadminbar > #mn-toolbar span.noticon {
+  color: #fff;
+}
+
+#mnadminbar .ab-icon,
+#mnadminbar .ab-icon:before,
+#mnadminbar .ab-item:before,
+#mnadminbar .ab-item:after {
+  color: #e5f8ff;
+}
+
+#mnadminbar:not(.mobile) .ab-top-menu > li:hover > .ab-item,
+#mnadminbar:not(.mobile) .ab-top-menu > li > .ab-item:focus,
+#mnadminbar.nojq .quicklinks .ab-top-menu > li > .ab-item:focus,
+#mnadminbar.nojs .ab-top-menu > li.menupop:hover > .ab-item,
+#mnadminbar .ab-top-menu > li.menupop.hover > .ab-item {
+  color: #fff;
+  background: #4796b3;
+}
+
+#mnadminbar:not(.mobile) > #mn-toolbar li:hover span.ab-label,
+#mnadminbar:not(.mobile) > #mn-toolbar li.hover span.ab-label,
+#mnadminbar:not(.mobile) > #mn-toolbar a:focus span.ab-label {
+  color: #fff;
+}
+
+#mnadminbar:not(.mobile) li:hover .ab-icon:before,
+#mnadminbar:not(.mobile) li:hover .ab-item:before,
+#mnadminbar:not(.mobile) li:hover .ab-item:after,
+#mnadminbar:not(.mobile) li:hover #adminbarsearch:before {
+  color: #fff;
+}
+
+/* Admin Bar: submenu */
+#mnadminbar .menupop .ab-sub-wrapper {
+  background: #4796b3;
+}
+
+#mnadminbar .quicklinks .menupop ul.ab-sub-secondary,
+#mnadminbar .quicklinks .menupop ul.ab-sub-secondary .ab-submenu {
+  background: #74b6ce;
+}
+
+#mnadminbar .ab-submenu .ab-item,
+#mnadminbar .quicklinks .menupop ul li a,
+#mnadminbar .quicklinks .menupop.hover ul li a,
+#mnadminbar.nojs .quicklinks .menupop:hover ul li a {
+  color: #e2ecf1;
+}
+
+#mnadminbar .quicklinks li .blavatar,
+#mnadminbar .menupop .menupop > .ab-item:before {
+  color: #e5f8ff;
+}
+
+#mnadminbar .quicklinks .menupop ul li a:hover,
+#mnadminbar .quicklinks .menupop ul li a:focus,
+#mnadminbar .quicklinks .menupop ul li a:hover strong,
+#mnadminbar .quicklinks .menupop ul li a:focus strong,
+#mnadminbar .quicklinks .ab-sub-wrapper .menupop.hover > a,
+#mnadminbar .quicklinks .menupop.hover ul li a:hover,
+#mnadminbar .quicklinks .menupop.hover ul li a:focus,
+#mnadminbar.nojs .quicklinks .menupop:hover ul li a:hover,
+#mnadminbar.nojs .quicklinks .menupop:hover ul li a:focus,
+#mnadminbar li:hover .ab-icon:before,
+#mnadminbar li:hover .ab-item:before,
+#mnadminbar li a:focus .ab-icon:before,
+#mnadminbar li .ab-item:focus:before,
+#mnadminbar li .ab-item:focus .ab-icon:before,
+#mnadminbar li.hover .ab-icon:before,
+#mnadminbar li.hover .ab-item:before,
+#mnadminbar li:hover #adminbarsearch:before,
+#mnadminbar li #adminbarsearch.adminbar-focused:before {
+  color: #fff;
+}
+
+#mnadminbar .quicklinks li a:hover .blavatar,
+#mnadminbar .quicklinks li a:focus .blavatar,
+#mnadminbar .quicklinks .ab-sub-wrapper .menupop.hover > a .blavatar,
+#mnadminbar .menupop .menupop > .ab-item:hover:before,
+#mnadminbar.mobile .quicklinks .ab-icon:before,
+#mnadminbar.mobile .quicklinks .ab-item:before {
+  color: #fff;
+}
+
+#mnadminbar.mobile .quicklinks .hover .ab-icon:before,
+#mnadminbar.mobile .quicklinks .hover .ab-item:before {
+  color: #e5f8ff;
+}
+
+/* Admin Bar: search */
+#mnadminbar #adminbarsearch:before {
+  color: #e5f8ff;
+}
+
+#mnadminbar > #mn-toolbar > #admin-bar-top-secondary > #admin-bar-search #adminbarsearch input.adminbar-input:focus {
+  color: #fff;
+  background: #6eb9d4;
+}
+
+/* Admin Bar: my account */
+#mnadminbar .quicklinks li#admin-bar-my-account.with-avatar > a img {
+  border-color: #6eb9d4;
+  background-color: #6eb9d4;
+}
+
+#mnadminbar #admin-bar-user-info .display-name {
+  color: #fff;
+}
+
+#mnadminbar #admin-bar-user-info a:hover .display-name {
+  color: #fff;
+}
+
+#mnadminbar #admin-bar-user-info .username {
+  color: #e2ecf1;
+}
+
+/* Pointers */
+.mn-pointer .mn-pointer-content h3 {
+  background-color: #096484;
+  border-color: #07526c;
+}
+
+.mn-pointer .mn-pointer-content h3:before {
+  color: #096484;
+}
+
+.mn-pointer.mn-pointer-top .mn-pointer-arrow,
+.mn-pointer.mn-pointer-top .mn-pointer-arrow-inner,
+.mn-pointer.mn-pointer-undefined .mn-pointer-arrow,
+.mn-pointer.mn-pointer-undefined .mn-pointer-arrow-inner {
+  border-bottom-color: #096484;
+}
+
+/* Media */
+.media-item .bar,
+.media-progress-bar div {
+  background-color: #096484;
+}
+
+.details.attachment {
+  -webkit-box-shadow: inset 0 0 0 3px #fff, inset 0 0 0 7px #096484;
+  box-shadow: inset 0 0 0 3px #fff, inset 0 0 0 7px #096484;
+}
+
+.attachment.details .check {
+  background-color: #096484;
+  -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 2px #096484;
+  box-shadow: 0 0 0 1px #fff, 0 0 0 2px #096484;
+}
+
+.media-selection .attachment.selection.details .thumbnail {
+  -webkit-box-shadow: 0px 0px 0px 1px #fff, 0px 0px 0px 3px #096484;
+  box-shadow: 0px 0px 0px 1px #fff, 0px 0px 0px 3px #096484;
+}
+
+/* Themes */
+.theme-browser .theme.active .theme-name,
+.theme-browser .theme.add-new-theme a:hover:after,
+.theme-browser .theme.add-new-theme a:focus:after {
+  background: #096484;
+}
+
+.theme-browser .theme.add-new-theme a:hover span:after,
+.theme-browser .theme.add-new-theme a:focus span:after {
+  color: #096484;
+}
+
+.theme-section.current,
+.theme-filter.current {
+  border-bottom-color: #52accc;
+}
+
+body.more-filters-opened .more-filters {
+  color: #fff;
+  background-color: #52accc;
+}
+
+body.more-filters-opened .more-filters:before {
+  color: #fff;
+}
+
+body.more-filters-opened .more-filters:hover,
+body.more-filters-opened .more-filters:focus {
+  background-color: #096484;
+  color: #fff;
+}
+
+body.more-filters-opened .more-filters:hover:before,
+body.more-filters-opened .more-filters:focus:before {
+  color: #fff;
+}
+
+/* Widgets */
+.widgets-chooser li.widgets-chooser-selected {
+  background-color: #096484;
+  color: #fff;
+}
+
+.widgets-chooser li.widgets-chooser-selected:before,
+.widgets-chooser li.widgets-chooser-selected:focus:before {
+  color: #fff;
+}
+
+/* Responsive Component */
+div#mn-responsive-toggle a:before {
+  color: #e5f8ff;
+}
+
+.mn-responsive-open div#mn-responsive-toggle a {
+  border-color: transparent;
+  background: #096484;
+}
+
+.mn-responsive-open #mnadminbar #admin-bar-menu-toggle a {
+  background: #4796b3;
+}
+
+.mn-responsive-open #mnadminbar #admin-bar-menu-toggle .ab-icon:before {
+  color: #e5f8ff;
+}
+
+/* TinyMCE */
+.mce-container.mce-menu .mce-menu-item:hover,
+.mce-container.mce-menu .mce-menu-item.mce-selected,
+.mce-container.mce-menu .mce-menu-item:focus,
+.mce-container.mce-menu .mce-menu-item-normal.mce-active,
+.mce-container.mce-menu .mce-menu-item-preview.mce-active {
+  background: #096484;
+}

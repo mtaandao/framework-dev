@@ -1,0 +1,13 @@
+#mnua-errors, #mnua-readable-size-error, .mnua-error { color: #c00 !important; font-weight: 700 !important; }
+#mnua-readable-size-error, #mnua-undo-button { display: none; }
+#mnua-preview, #mnua-preview-existing { margin-right: 10px; }
+#mnua-preview, #mnua-preview-existing, #mnua-thumbnail, #mnua-thumbnail-existing { display: inline-block; text-align: center; vertical-align: top; }
+#mnua-preview img, #mnua-thumbnail img, #mnua-preview-existing img, #mnua-thumbnail-existing img { max-height: 96px; border: 1px solid #dfdfdf; display: block; }
+.widget_mn_user_avatar #mnua-preview img, .widget_mn_user_avatar #mnua-thumbnail img, .widget_mn_user_avatar #mnua-preview-existing img, .widget_mn_user_avatar #mnua-thumbnail-existing img { max-height: 64px; }
+.defaultavatarpicker #mnua-preview, .defaultavatarpicker #mnua-preview-existing { width: 32px; height: 32px; margin-right: 0; display: inline-block; overflow: hidden; vertical-align: middle; }
+.defaultavatarpicker #mnua-preview img , .defaultavatarpicker #mnua-preview-existing img { width: 32px; height: auto; border: 0; }
+#mnua-edit #mnua-remove, #mnua-edit #mnua-undo, #mnua-edit-attachment { margin-left: 10px !important; }
+#mnua-slider { width: 22.75em; }
+#mnua-upload-messages span { display: block; }
+.mnua-hide { display: none !important; }
+.mnua-no-avatars { display: none; }
