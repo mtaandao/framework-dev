@@ -17,9 +17,9 @@
 .mn-core-ui .types-button.button-primary:focus,
 .mn-core-ui .types-button.button-primary:visited {
     background: #f05a28;
-    border-color: #ed4e26;
-    box-shadow: 0 1px 0 #ed4e26;
-    text-shadow: 0 -1px 1px #ed4e26, 1px 0 1px #ed4e26, 0 1px 1px #ed4e26, -1px 0 1px #ed4e26;
+    border-color: #21b68e;
+    box-shadow: 0 1px 0 #21b68e;
+    text-shadow: 0 -1px 1px #21b68e, 1px 0 1px #21b68e, 0 1px 1px #21b68e, -1px 0 1px #21b68e;
 }
 
 .mn-core-ui .types-information .button,
@@ -32,7 +32,7 @@
 
 .types-button:hover,
 .mn-core-ui .types-button.button-primary:hover {
-    background-color: #ed4e26;
+    background-color: #21b68e;
 }
 
 .types-warning,

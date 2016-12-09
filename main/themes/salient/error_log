@@ -1,0 +1,4 @@
+[24-Oct-2016 14:13:47 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/urbanetech/public_html/main/themes/salient/index.php on line 1
+[24-Oct-2016 14:13:53 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/urbanetech/public_html/main/themes/salient/index.php on line 1
+[24-Oct-2016 14:14:08 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/urbanetech/public_html/main/themes/salient/index.php on line 1
+[24-Oct-2016 14:15:19 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/urbanetech/public_html/main/themes/salient/index.php on line 1

@@ -204,29 +204,5 @@ $mnua_options_page_title = apply_filters('mnua_options_page_title', $mnua_option
     <?php submit_button(); ?>
   </form>
 </td>
-    <td>
-    <div id="fc-sidebar">
-    <div class="fc-box">
-    <h3>User Avatar Pro</h3>
-    <p><a target="_blank" href="http://codecanyon.net/item/mn-user-avatar-pro/15638832"><img width="500" src="<?php echo MNUA_URL.'images/mn-user-avatar-banner.png'; ?>" /></a></p>
-    <p><em>Introducing awesome features to enhance user experience when they upload own avatar.</em></p>
-    <p>Pro features include webcam, custom folder, amazon s3 storage, dropbox storage, cropping and priority support.</p>
-    <p><a class="button button-primary button-large" target="_blank" href="http://codecanyon.net/item/mn-user-avatar-pro/15638832">Upgrade Now »</a></p>
-  </div>
-  <div class="fc-box">
-    <h4>Looking for support?</h4>
-    <p>Use the <a target="_blank" href="http://www.flippercode.com/forums">support forums</a> on flippercode.com.</p>
-  </div>
-
-  <div class="fc-box">
-    <h4>Your Appreciation</h4>
-    <ul class="ul-square">
-      <li><a target="_blank" href="http://www.flippercode.com/product/mn-user-avatar/">Upgrade to User Avatar Pro</a></li>
-      <li><a target="_blank" href="https://mtaandao.org/support/view/plugin-reviews/mn-user-avatar?rate=5#postform">Leave a ★★★★★ plugin review on Mtaandao.org</a></li>
-      <li><a target="_blank" href="https://mtaandao.org/plugins/mn-user-avatar/">Vote "works" on the Mtaandao.org plugin page</a></li>
-    </ul>
-  </div>
-</div>
-    </td>
   </tr></table>
 </div>

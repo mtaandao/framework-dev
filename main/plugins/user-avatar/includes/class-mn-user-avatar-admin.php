@@ -263,7 +263,7 @@ class MN_User_Avatar_Admin {
     // Add MNUA to list
     $mnua_list = "\n\t<label><input type='radio' name='avatar_default' id='mn_user_avatar_radio' value='mn_user_avatar'$selected_avatar /> ";
     $mnua_list .= preg_replace("/src='(.+?)'/", "src='\$1'", $avatar_thumb_img);
-    $mnua_list .= ' '.__('User Avatar', 'mn-user-avatar').'</label>';
+    $mnua_list .= ' '.__('Local Avatar', 'mn-user-avatar').'</label>';
     $mnua_list .= '<p id="mnua-edit"><button type="button" class="button" id="mnua-add" name="mnua-add" data-avatar_default="true" data-title="'._('Choose Image').': '._('Default Avatar').'">'.__('Choose Image','mn-user-avatar').'</button>';
     $mnua_list .= '<span id="mnua-remove-button"'.$hide_remove.'><a href="#" id="mnua-remove">'.__('Remove','mn-user-avatar').'</a></span><span id="mnua-undo-button"><a href="#" id="mnua-undo">'.__('Undo','mn-user-avatar').'</a></span></p>';
     $mnua_list .= '<input type="hidden" id="mn-user-avatar" name="avatar_default_mn_user_avatar" value="'.$mnua_avatar_default.'">';
@@ -300,19 +300,7 @@ class MN_User_Avatar_Admin {
     return $links;
   }
 
-  /**
-   * Add row meta on plugin page
-   * @since 1.6.6
-   * @param array $links
-   * @param string $file
-   * @return array $links
-   */
-  public function mnua_row_meta($links, $file) {
-    if(basename(dirname($file)) == 'mn-user-avatar') {
-      $links[] = '<a href="http://mtaandao.org/support/plugin/mn-user-avatar" target="_blank">'.__('Support Forums','mn-user-avatar').'</a>';
-    }
-    return $links;
-  }
+
 
   /**
    * Add column to Users table
@@ -321,7 +309,7 @@ class MN_User_Avatar_Admin {
    * @return array
    */
   public function mnua_add_column($columns) {
-    return $columns + array('mn-user-avatar' => __('Avatar','mn-user-avatar'));
+    return $columns + array('mn-user-avatar' => __('Local Avatar','mn-user-avatar'));
   }
 
   /**

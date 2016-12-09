@@ -1,0 +1,20 @@
+<mnml-config>
+    <custom-types>
+        <custom-type translate="1">slider</custom-type>
+     </custom-types>
+    <custom-fields>
+        <custom-field action="translate">mtaa_slide_url</custom-field>
+        <custom-field action="translate">mtaa_slide_button_title</custom-field>
+        <custom-field action="translate">mtaa_slide_button_url</custom-field>
+    </custom-fields>
+    <admin-texts>
+        <key name="mtaa_post_share_label_twitter" />
+        <key name="mtaa_post_share_label_facebook" />
+        <key name="mtaa_post_share_label_gplus" />
+        <key name="mtaa_portfolio_share_label_twitter" />
+        <key name="mtaa_portfolio_share_label_facebook" />
+        <key name="mtaa_portfolio_share_label_gplus" />
+        <key name="mtaa_meta_desc" />
+        <key name="mtaa_meta_key" />
+    </admin-texts>
+</mnml-config>

@@ -1,0 +1,202 @@
+/*progress bar*/
+.mnb-layout-element-button .icon-mnb-my_progress { background-image: url('../library/functions/shortcodes/images/progress-bars.png'); }
+.mnb_progressbar .mnb_element_wrapper { background-image: url('../library/functions/shortcodes/images/progress-bars.png'); }
+
+/*button*/
+.mnb-layout-element-button .icon-mnb-my_button { background-image: url('icons/button.png'); }
+.mnb_button .mnb_element_wrapper { background-image: url('icons/button.png'); }
+
+/*Alert box*/
+.mnb-layout-element-button .icon-mnb-my_alert { background-image: url('icons/alert.png'); }
+.mnb_alert .mnb_element_wrapper { background-image: url('icons/alert.png'); }
+
+/*video*/
+.mnb-layout-element-button .icon-mnb-my_video { background-image: url('icons/video.png'); }
+.mnb_video .mnb_element_wrapper { background-image: url('icons/video.png'); }
+
+/*local audio*/
+.mnb-layout-element-button .icon-mnb-my_audio { background-image: url('icons/audio.png'); }
+.mnb_audio .mnb_element_wrapper { background-image: url('icons/audio.png'); }
+
+/*self osted video*/
+.mnb-layout-element-button .icon-mnb-my_shvideo { background-image: url('icons/shvideo.png'); }
+.mnb_shvideo .mnb_element_wrapper { background-image: url('icons/shvideo.png'); }
+
+/*contact*/
+.mnb-layout-element-button .icon-mnb-my_contact { background-image: url('icons/contact.png'); }
+.mnb_contact .mnb_element_wrapper, .alc_contact .mnb_element_wrapper { background-image: url('icons/contact.png'); }
+
+/*featured block*/
+.mnb-layout-element-button .icon-mnb-my_fblock { background-image: url('icons/fblock.png'); }
+.mnb_fblock .mnb_element_wrapper { background-image: url('icons/fblock.png'); }
+
+/*title block*/
+.mnb-layout-element-button .icon-mnb-my_tblock { background-image: url('icons/tblock.png'); }
+.mnb_tblock .mnb_element_wrapper { background-image: url('icons/tblock.png'); }
+
+/*Modal box*/
+.mnb-layout-element-button .icon-mnb-my_reveal { background-image: url('icons/reveal.png'); }
+.mnb_reveal .mnb_element_wrapper { background-image: url('icons/reveal.png'); }
+
+/*team member*/
+.mnb-layout-element-button .icon-mnb-my_teammember { background-image: url('icons/teammember.png'); }
+.mnb_teammember .mnb_element_wrapper { background-image: url('icons/teammember.png'); }
+
+/*dropdown button*/
+.mnb-layout-element-button .icon-mnb-my_dropdown { background: url('icons/dropdown.png') no-repeat; }
+.mnb_dropdown .mnb_element_wrapper { background: url('icons/dropdown.png') no-repeat; }
+
+/*portfolio listing*/
+.mnb-layout-element-button .icon-mnb-my_portlist { background-image: url('icons/portlist.png'); }
+.mnb_portlist .mnb_element_wrapper { background-image: url('icons/portlist.png'); }
+
+/*blog listing*/
+.mnb-layout-element-button .icon-mnb-my_bloglist { background-image: url('icons/bloglist.png'); }
+.mnb_list_posts .mnb_element_wrapper { background-image: url('icons/bloglist.png'); }
+
+/*Panel*/
+.mnb-layout-element-button .icon-mnb-my_panel { background-image: url('icons/panel.png'); }
+.mnb_panel .mnb_element_wrapper { background-image: url('icons/panel.png'); }
+/***********************************************************/
+/*full background*/
+/*full width backgroun(parallax)*/
+.mnb-layout-element-button .icon-mnb-my_fullbg { background: url('icons/fullbg.png') no-repeat; }
+.mnb_fullbg .mnb_element_wrapper { background: url('icons/fullbg.png') no-repeat; }
+
+/*well*/
+.mnb-layout-element-button .icon-mnb-my_well { background-image: url('icons/well.png'); }
+.mnb_well .mnb_element_wrapper { background-image: url('icons/well.png'); }
+
+/*circle progress bar*/
+.mnb-layout-element-button .icon-mnb-my_circle { background-image: url('icons/circle.png'); }
+.mnb_circle .mnb_element_wrapper { background-image: url('icons/circle.png'); }
+
+/*promo block*/
+.mnb-layout-element-button .icon-mnb-my_promo { background-image: url('icons/promo.png'); }
+.mnb_promo .mnb_element_wrapper { background-image: url('icons/promo.png'); }
+
+/*blockquote*/
+.mnb-layout-element-button .icon-mnb-my_blockquote { background-image: url('icons/blockquote.png'); }
+.mnb_blockquote .mnb_element_wrapper { background-image: url('icons/blockquote.png'); }
+
+/*label*/
+.mnb-layout-element-button .icon-mnb-my_label { background-image: url('icons/label.png'); }
+.mnb_label .mnb_element_wrapper { background-image: url('icons/label.png'); }
+
+/*divider*/
+.mnb-layout-element-button .icon-mnb-my_divider { background-image: url('icons/divider.png'); }
+.mnb_divider .mnb_element_wrapper { background-image: url('icons/divider.png'); }
+
+/*tooltip*/
+.mnb-layout-element-button .icon-mnb-my_tooltip { background-image: url('icons/tooltip.png'); }
+.mnb_tooltip .mnb_element_wrapper { background-image: url('icons/tooltip.png'); }
+
+/*lightbox*/
+.mnb-layout-element-button .icon-mnb-my_lightbox { background-image: url('icons/lightbox.png'); }
+.mnb_lightbox .mnb_element_wrapper { background-image: url('icons/lightbox.png'); }
+
+/*thumbnail*/
+.mnb-layout-element-button .icon-mnb-my_thumbnail { background-image: url('icons/thumbnail.png'); }
+.mnb_thumbnail .mnb_element_wrapper { background-image: url('icons/thumbnail.png'); }
+
+/*smicon*/
+.mnb-layout-element-button .icon-mnb-my_smicon { background-image: url('icons/smicon.png'); }
+.mnb_smicon .mnb_element_wrapper { background-image: url('icons/smicon.png'); }
+
+/*smgallery*/
+.mnb-layout-element-button .icon-mnb-my_smgallery { background-image: url('icons/smgallery.png'); }
+.mnb_smgallery .mnb_element_wrapper { background-image: url('icons/smgallery.png'); }
+
+
+/*testimonial*/
+.mnb-layout-element-button .icon-mnb-my_testimonial { background: url('icons/testimonial.png' ) no-repeat; }
+.mnb_testimonial .mnb_element_wrapper { background: url('icons/testimonial.png') no-repeat; }
+
+/*Social*/
+.mnb-layout-element-button .icon-mnb-my_social { background: url('icons/social.png') no-repeat; }
+.mnb_social .mnb_element_wrapper { background: url('icons/social.png')  no-repeat; }
+
+
+/*slider*/
+.mnb-layout-element-button .icon-mnb-my_slider { background-image: url('icons/slider.png'); }
+.mnb_slider .mnb_element_wrapper { background-image: url('icons/slider.png'); }
+
+/*carousel*/
+.mnb-layout-element-button .icon-mnb-my_carousel { background: url('icons/carousel.png') no-repeat; }
+.mnb_carousel .mnb_element_wrapper { background: url('icons/carousel.png') no-repeat; }
+
+
+
+/*counter*/
+.mnb-layout-element-button .icon-mnb-my_counter { background-image: url('icons/counter.png'); }
+.mnb_counter .mnb_element_wrapper { background-image: url('icons/counter.png'); }
+
+/*creative links*/
+.mnb-layout-element-button .icon-mnb-my_crlink { background-image: url('icons/crlink.png'); }
+.mnb_crlink .mnb_element_wrapper { background-image: url('icons/crlink.png'); }
+
+/*dropcaps*/
+.mnb-layout-element-button .icon-mnb-my_dropcap { background-image: url('icons/dropcap.png'); }
+.mnb_dropcap .mnb_element_wrapper { background-image: url('icons/dropcap.png'); }
+
+/*google map*/
+.mnb-layout-element-button .icon-mnb-my_gmap { background-image: url('icons/gmap.png'); }
+.mnb_gmap .mnb_element_wrapper { background-image: url('icons/gmap.png'); }
+
+/*list*/
+
+.mnb-layout-element-button .icon-mnb-my_list { background: url('icons/unordered.png')no-repeat; }
+.mnb_list.vc_shortcodes_container { background: url('icons/unordered.png') no-repeat; }
+/*list item*/
+.mnb-layout-element-button .icon-mnb-my_list_item { background-image: url('icons/unordered.png'); }
+.mnb_list_item.vc_shortcodes_container { background-image: url('icons/unordered.png'); }
+
+/*Iconbox list*/
+.mnb-layout-element-button .icon-mnb-my_biglist { background-image: url('icons/biglist.png'); }
+.mnb_biglist.vc_shortcodes_container { background-image: url('icons/biglist.png'); }
+
+/*tweets*/
+.mnb-layout-element-button .icon-mnb-my_tweet { background-image: url('icons/tweet.png'); }
+.mnb_tweet.vc_shortcodes_container { background-image: url('icons/tweet.png'); }
+
+/*pricing table*/
+.mnb-layout-element-button .icon-mnb-my_pricing { background: url('icons/pricing.png') no-repeat; }
+.mnb_pricing.vc_shortcodes_container { background: url('icons/pricing.png') no-repeat; }
+
+/*Tabs*/
+.mnb-layout-element-button .icon-mnb-my_tabs { background: url('icons/tabs.png') no-repeat; }
+.mnb_tabs.vc_shortcodes_container { background: url('icons/tabs.png') no-repeat; }
+
+/* Lead paragraph*/
+.mnb-layout-element-button .icon-mnb-my_lead { background-image: url('icons/lead.png'); }
+.mnb_lead.vc_shortcodes_container { background-image: url('icons/lead.png'); }
+
+/*Product carousel*/
+.mnb-layout-element-button .icon-mnb-my_productcar { background-image: url('icons/portlist.png'); }
+.mnb_productcar .mnb_element_wrapper { background-image: url('icons/portlist.png'); }
+
+/*special products*/
+.mnb-layout-element-button .icon-mnb-my_shop_special_products { background-image: url('icons/portlist.png'); }
+.mnb_shop_special_products .mnb_element_wrapper { background-image: url('icons/portlist.png'); }
+
+/*Content Carousel*/
+.mnb-layout-element-button .icon-mnb-my_av_carousel { background: url('icons/carousel.png') no-repeat; }
+.mnb__av_carousel .mnb_element_wrapper { background: url('icons/carousel.png') no-repeat; }
+
+/*Flickr*/
+.mnb-layout-element-button .icon-mnb-my_flickr { background-image: url('icons/flickr.png'); }
+.mnb_flickr.vc_shortcodes_container { background-image: url('icons/flickr.png'); }
+
+/*Accordion*/
+.mnb-layout-element-button .icon-mnb-my_accordion { background: url('icons/accordion.png') no-repeat; }
+.mnb_accordion.vc_shortcodes_container { background: url('icons/accordion.png') no-repeat; }
+
+/*Vernav*/
+.mnb-layout-element-button .icon-mnb-my_vernav { background: url('icons/vernav.png') no-repeat; }
+.mnb_vernav.vc_shortcodes_container { background: url('icons/vernav.png') no-repeat; }
+/*infoblock*/
+.mnb-layout-element-button .icon-mnb-my_infoblock { background: url('icons/well.png') no-repeat; }
+.mnb_infoblock .mnb_element_wrapper { background: url('icons/well.png') no-repeat; }
+/*Timeline*/
+.mnb-layout-element-button .icon-mnb-my_timeline { background: url('icons/timeline.png') no-repeat; }
+.mnb_timeline.vc_shortcodes_container { background: url('icons/timeline.png') no-repeat; }

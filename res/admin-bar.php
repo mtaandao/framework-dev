@@ -1005,7 +1005,18 @@ function _get_admin_bar_pref( $context = 'front', $user = 0 ) {
 	return 'false' === $pref;
 }?>
 <style>
-    #profile {
+    #more_vert {
+      position: fixed;
+      display: block;
+      right: 0;
+      top: 0;
+      margin-right: 10px;
+      margin-top: 10px;
+      color: white;
+      z-index: 900;
+      text-decoration: none;
+}
+	#profile {
       position: fixed;
       display: block;
       right: 0;
@@ -1056,23 +1067,87 @@ function _get_admin_bar_pref( $context = 'front', $user = 0 ) {
       position: fixed;
       display: block;
       right: 0;
-      bottom: 0;
+      top: 0;
       margin-right: 15px;
-      margin-bottom: 70px;
+      margin-top: 70px;
       z-index: 900;
 }
       #register {
       position: fixed;
       display: block;
       right: 0;
-      bottom: 0;
+      top: 0;
       margin-right: 15px;
-      margin-bottom: 10px;
+      margin-top: 130px;
       z-index: 900;
 }
-    </style>
+      #hide {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 80px;
+      margin-bottom: 365px;
+      z-index: 900;
+}
+      #show {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 15px;
+      margin-bottom: 5px;
+      z-index: 900;
+}
+      #share-whatsapp {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 80px;
+      margin-bottom: 65px;
+      z-index: 900;
+}
+      #share-email {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 80px;
+      margin-bottom: 125px;
+      z-index: 900;
+}
+      #share-google {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 80px;
+      margin-bottom: 185px;
+      z-index: 900;
+}
+      #share-twitter {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 80px;
+      margin-bottom: 245px;
+      z-index: 900;
+}
+      #share-facebook {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 80px;
+      margin-bottom: 305px;
+      z-index: 900;
+}
+</style>
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
 <?php
 add_action( 'loop_start', 'on_front_logged_in' );
@@ -1099,12 +1174,67 @@ if ( is_user_logged_in() ) {
 else if ( !is_user_logged_in() ) {
 ?>
 <div id="on_front_logged_out">
+<moren>
 <a href="<?php echo esc_url( home_url( '/' ). 'login.php' ); ?>" target="_self" id="login"><button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
-  <i class="material-icons"">account_box</i>
+  <i class="material-icons">account_circle</i>
 </button></a>
 <a href="<?php echo esc_url( home_url( '/' ). 'register.php' ); ?>" target="_self" id="register"><button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
   <i class="material-icons"">person_add</i>
 </button></a>
+</moren>
 </div>
 <?php }
+
+else {
+	?>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#show").click(function(){
+        $("spand").show();
+    });
+    $("#hide").click(function(){
+        $("spand").hide();
+    });
+});
+$(document).ready(function(){
+    $("#more_vert").click(function(){
+        $("moren").show();
+    });
+    $("#hide").click(function(){
+        $("moren").hide();
+    });
+});
+</script>
+<spand>
+<a id="share-facebook" href="http://www.facebook.com/sharer.php?u=[post-url]">
+    <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+  <i class="fa fa-facebook"></i>
+</button></a>
+<a id="share-twitter" href="http://twitter.com/share?url=<URL>&text=<TEXT>via=<USERNAME>">
+    <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+  <i class="fa fa-twitter"></i>
+</button></a>
+<a id="share-google" href="http://twitter.com/share?url=<URL>&text=<TEXT>via=<USERNAME>">
+    <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+  <i class="fa fa-google-plus"></i>
+</button></a>
+<a id="share-email" href="mailto:sample@email.com" data-rel="external">
+    <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+  <i class="fa fa-envelope"></i>
+</button></a>
+<a id="share-whatsapp" href="whatsapp://send?text=The text to share!" data-action="share/whatsapp/share">
+    <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+  <i class="fa fa-whatsapp"></i>
+</button></a>
+</spand>
+<div><a id="hide" href="#"><button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect" id="hide"><i class="material-icons">highlight_off</i></button></a>
+<a id="show" href="#">
+    <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+  <i class="fa fa-share-alt"></i></button></a>
+<div>
+<a href="#"><i id="more_vert" class="material-icons">more_vert</i></a>
+
+<?php }
 } ?>
+<?php

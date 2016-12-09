@@ -1,0 +1,7 @@
+<mnml-config>
+    <admin-texts>
+        <key name="redux_demo">
+            <key name="mnml-text"/>
+        </key>
+    </admin-texts>
+</mnml-config>

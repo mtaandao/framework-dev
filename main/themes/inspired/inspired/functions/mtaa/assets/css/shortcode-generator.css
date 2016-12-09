@@ -1,0 +1,69 @@
+/**
+ * Mtaa shortcode generator CSS.
+ */
+
+/**
+ * 1. Layout
+ */
+#mnz-options-buttons { margin: -3px -15px 0; background: #EDEDED; padding: 12px 20px 8px; border-bottom: 1px solid #ddd; }
+#mnz-options {float: left; width: 380px; margin-right: 19px; position: relative; z-index: 2; }
+#mnz-options.shortcode-related, #mnz-options.shortcode-column, #mnz-options.shortcode-tab  { width: 100%; }
+#mnz-options h3, #mnz-preview h3, #mnz-options-error h3 { border-bottom: 1px solid #E7E7E7; font-size: 13px; margin: 10px 0; padding: 7px 0; }
+#mnz-preview { width: 225px; position: relative; z-index: 2; }
+#mnz-preloader { position: absolute; }
+.mnz-loading { background: url( "../images/shortcodes/loading-bottom.gif") no-repeat scroll right center transparent; padding-right: 15px; }
+#mnz-options.shortcode-contactform { width: 100%; display: block;  }
+#mnz-preview.shortcode-contactform { width: 100%; margin-top: -20px; display: block; }
+#mnz-preview.shortcode-contactform iframe { height: 530px!important; }
+
+/**
+ * 2. Attributes Table
+ */
+#mnz-options-table { border: 0px solid #DFDFDF; width: 100%; margin-bottom: 8px; }
+#mnz-options-table th { padding-top: 0.2em; }
+#mnz-options.shortcode-column th, #mnz-options.shortcode-tab th  { width: 20px; vertical-align: top; }
+#mnz-options-table td { vertical-align: middle; padding: 0 5px 10px 0; }
+.mnz-input-help { font-size: 11px; color: #999; font-style: italic; font-family: sans-serif; display: block; clear: both; }
+.mnz-input-help p   { margin: 0; color: #888; font-size: 11px; }
+abbr.mnz-required { color: #FF0000; }
+
+/**
+ * 3. Validation
+ */
+#mnz-options-error p { margin: 0; }
+#mnz-options-error h4 { margin: 1.33em 0 0.8em 0; }
+input.mnz-required {}
+.mnz-validating { background: url( "../images/shortcodes/loading-bottom.gif") no-repeat scroll right center transparent; padding-right: 18px; }
+.mnz-validated { background: url( "../images/shortcodes/happy.png") no-repeat scroll right center transparent; padding-right: 15px; }
+.mnz-validation-error { background: url( "../images/shortcodes/ico-alert.png") no-repeat scroll right center transparent; padding-right: 15px; }
+
+/**
+ * 4. Column Control
+ */
+div.column-button { border: 1px solid #333333; width: 100px; margin:  4px 0; text-align: center; }
+input.column-button[disabled], input.column-button[disabled]:hover { background-color: #fff !important; color: #aaa; border: 1px solid #eee; }
+input.column-button { float: left; clear: left; margin-top: 2px; border: 1px solid #777777; background-color: #EEEEEE !important; }
+.rounded5p { -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+#mnz-column-text { border: 1px solid #AAAAAA; font-size: 22px; font-family: Sans-serif; padding: 5px 40px 5px 5px; }
+
+/**
+ * 5. Form Elements
+ */
+#mnz-options input[type=text], #mnz-options select  { margin-bottom: 4px; border-color: #CCCCCC #EEEEEE #EEEEEE #CCCCCC; border-style: solid; border-width: 1px; font-family: "Lucida Grande",Verdana,sans-serif;height: 28px;  width: 280px; color: #555555; font-size: 12px; }
+#mnz-options.shortcode-related input[type=text]  { width: 560px; }
+#mnz-options.shortcode-contactform label  {  width: 130px; }
+#mnz-options.shortcode-column label  {}
+#mnz-options.shortcode-contactform input[type=text]  { width: 483px; }
+#mnz-options input[type=text]  {  padding: 5px; -moz-border-radius: 4px 4px 4px 4px; }
+#mnz-options select  { cursor: pointer; opacity: 0; padding: 0; position: relative; z-index: 4; padding: 5px; }
+#mnz-options-table label { width: 89px; text-align: right; padding: 6px 6px 0 0; font-weight: bold; font-size: 11px; line-height: 12px; color: #333333; display: block; }
+label.mnz-required span.required {padding: 0 0 0 2px; margin-top: -4px; font-size: smaller; color: #FF0000; }
+#mnz-options .select_wrapper  { -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif; font-size: 12px; background: url(../images/select.png) no-repeat right center; border-color: #ccc #eee #eee #ccc; border-style: solid; border-width: 1px; float: left; height: 26px; width: 280px; margin: 0 0 4px; display: block; }
+#mnz-options .select_wrapper span { height: 26px; line-height: 26px; padding-left: 6px; position: absolute; z-index: 2; }
+
+/**
+ * 5.1 Colour Picker
+ */
+#mnz-options .mnz-marker-colourpicker-control .colorSelector { margin-top: 1px; }
+#mnz-options .mnz-marker-colourpicker-control input.input-colourpicker { float: right; width: 248px; }
+#mnz-options .mnz-marker-colourpicker-control br { clear: both; }

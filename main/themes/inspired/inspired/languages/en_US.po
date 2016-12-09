@@ -1,0 +1,913 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Inspired v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-08-06 07:53:43+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: archive.php:12
+#@ mtaa
+msgid "Post Tagged with:"
+msgstr ""
+
+#: archive.php:13
+#: archive.php:14
+#: archive.php:15
+#@ mtaa
+msgid "Archive for"
+msgstr ""
+
+#: archive.php:17
+#@ mtaa
+msgid "Archives"
+msgstr ""
+
+#: archive.php:18
+#@ mtaa
+msgid "Recent Posts"
+msgstr ""
+
+#: comments.php:19
+#@ mtaa
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:19
+#@ mtaa
+msgid "% Comments"
+msgstr ""
+
+#: footer.php:39
+#@ mtaa
+msgid "Copyright"
+msgstr ""
+
+#: footer.php:39
+#@ mtaa
+msgid "All Rights Reserved"
+msgstr ""
+
+#: functions/mtaa/components/shortcodes/dialog.php:31
+#@ mtaa
+msgid "Customize the Shortcode"
+msgstr ""
+
+#: functions/mtaa/components/shortcodes/dialog.php:40
+#@ mtaa
+msgid "Preview"
+msgstr ""
+
+#: functions/mtaa/components/shortcodes/dialog.php:54
+#@ mtaa
+msgid "Your version of theme does not yet support shortcodes."
+msgstr ""
+
+#: functions/theme/custom-post-types.php:11
+#@ mtaa
+msgctxt "post type general name"
+msgid "Slideshow"
+msgstr ""
+
+#: functions/theme/custom-post-types.php:12
+#@ mtaa
+msgctxt "post type singular name"
+msgid "Slideshow Item"
+msgstr ""
+
+#: functions/theme/custom-post-types.php:13
+#@ mtaa
+msgctxt "slideshow item"
+msgid "Add New"
+msgstr ""
+
+#: functions/theme/custom-post-types.php:14
+#@ mtaa
+msgid "Add New Slideshow Item"
+msgstr ""
+
+#: functions/theme/custom-post-types.php:15
+#@ mtaa
+msgid "Edit Slideshow Item"
+msgstr ""
+
+#: functions/theme/custom-post-types.php:16
+#@ mtaa
+msgid "New Slideshow Item"
+msgstr ""
+
+#: functions/theme/custom-post-types.php:17
+#@ mtaa
+msgid "View Slideshow Item"
+msgstr ""
+
+#: functions/theme/custom-post-types.php:18
+#@ mtaa
+msgid "Search Slideshow"
+msgstr ""
+
+#: functions/theme/custom-post-types.php:19
+#@ mtaa
+msgid "Nothing found"
+msgstr ""
+
+#: functions/theme/custom-post-types.php:20
+#@ mtaa
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: functions/mtaa/components/portfolio/portfolio.php:71
+#: functions/mtaa/components/portfolio/portfolio.php:84
+#: functions/mtaa/components/portfolio/portfolio.php:121
+#: functions/mtaa/components/portfolio/portfolio.php:123
+#@ mtaa
+msgid "Portfolio"
+msgstr ""
+
+#: functions/mtaa/components/portfolio/portfolio.php:130
+#@ mtaa
+msgid "Add New Portfolio"
+msgstr ""
+
+#: functions/mtaa/components/portfolio/portfolio.php:127
+#@ mtaa
+msgid "Edit Portfolio"
+msgstr ""
+
+#: functions/mtaa/components/portfolio/portfolio.php:128
+#@ mtaa
+msgid "View Portfolio"
+msgstr ""
+
+#: functions/mtaa/components/portfolio/portfolio.php:78
+#@ mtaa
+msgid "Search Portfolio"
+msgstr ""
+
+#: functions/theme/post-options.php:45
+#: functions/theme/widgets/twitter.php:105
+#@ mtaa
+msgid "Title"
+msgstr ""
+
+#: functions/mtaa/components/portfolio/walker-category-filter.php:13
+#, php-format
+#@ mtaa
+msgid "View all posts filed under %s"
+msgstr ""
+
+#: functions/mtaa/components/portfolio/walker-category-filter.php:29
+#, php-format
+#@ mtaa
+msgid "Feed for all posts filed under %s"
+msgstr ""
+
+#: functions/mtaa/components/shortcodes/shortcodes.php:565
+#: functions/mtaa/components/shortcodes/shortcodes.php:615
+#: functions/mtaa/components/shortcodes/shortcodes.php:631
+#, php-format
+#@ mtaa
+msgid "My %s Profile"
+msgstr ""
+
+#: functions/mtaa/components/shortcodes/shortcodes.php:586
+#@ mtaa
+msgid "Subscribe to our RSS feed"
+msgstr ""
+
+#: content-page.php:23
+#: content-single.php:82
+#: content.php:29
+#: functions/theme/functions.php:260
+#: portfolio/single.php:83
+#@ mtaa
+msgid "Edit"
+msgstr ""
+
+#: content.php:26
+#@ mtaa
+msgid "1 comment"
+msgstr ""
+
+#: content.php:26
+#@ mtaa
+msgid "% comments"
+msgstr ""
+
+#: functions/theme/widgets/twitter.php:225
+#: functions/theme/widgets/twitter.php:227
+#, php-format
+#@ mtaa
+msgid "%s"
+msgstr ""
+
+#: functions/theme/widgets/social.php:12
+#@ mtaa
+msgid "Custom Mtaa Widget that displays links to social sharing websites."
+msgstr ""
+
+#: functions/theme/widgets/social.php:18
+#@ mtaa
+msgid "Mtaa: Social Widget"
+msgstr ""
+
+#: functions/theme/widgets/social.php:87
+#@ mtaa
+msgid "Widget Title:"
+msgstr ""
+
+#: functions/theme/widgets/twitter.php:220
+#, php-format
+#@ mtaa
+msgid "%s ago"
+msgstr ""
+
+#: functions/mtaa/components/medialib-uploader.php:38
+#@ mtaa
+msgid "Upload"
+msgstr ""
+
+#: functions/mtaa/components/medialib-uploader.php:60
+#@ mtaa
+msgid "View File"
+msgstr ""
+
+#: functions/mtaa/components/medialib-uploader.php:15
+#@ mtaa
+msgid "Mtaa Exporter"
+msgstr ""
+
+#: functions/mtaa/mtaa.php:172
+#@ mtaa
+msgid "Mtaa"
+msgstr ""
+
+#: functions/mtaa/mtaa.php:173
+#@ mtaa
+msgid "Theme Options"
+msgstr ""
+
+#: functions/mtaa/mtaa.php:176
+#@ mtaa
+msgid "Framework Update"
+msgstr ""
+
+#: content.php:26
+#@ mtaa
+msgid "0 comments"
+msgstr ""
+
+#: content.php:26
+#@ mtaa
+msgid "Comments are Disabled"
+msgstr ""
+
+#: archive.php:16
+#@ mtaa
+msgid " Articles by: "
+msgstr ""
+
+#: comments.php:3
+#@ mtaa
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:19
+#@ mtaa
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:35
+#@ mtaa
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#: comments.php:35
+#@ mtaa
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: comments.php:47
+#@ mtaa
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:78
+#, php-format
+#@ mtaa
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\">Log out?</a>"
+msgstr ""
+
+#: comments.php:80
+#@ mtaa
+msgid "Cancel"
+msgstr ""
+
+#: functions/theme/functions.php:282
+#@ mtaa
+msgid "(Edit)"
+msgstr ""
+
+#: functions/theme/functions.php:268
+#@ mtaa
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions/theme/functions.php:282
+#@ mtaa
+msgid "Pingback:"
+msgstr ""
+
+#: functions/theme/widgets/single-page.php:12
+#@ mtaa
+msgid "Custom Mtaa widget that displays a single specified static page."
+msgstr ""
+
+#: functions/theme/widgets/single-page.php:18
+#@ mtaa
+msgid "Mtaa: Single Page"
+msgstr ""
+
+#: functions/theme/widgets/single-page.php:108
+#@ mtaa
+msgid "Page to Display:"
+msgstr ""
+
+#: functions/theme/widgets/single-page.php:126
+#@ mtaa
+msgid "Link Page Title to Page"
+msgstr ""
+
+#: functions/mtaa/components/admin/settings-page.php:132
+#@ mtaa
+msgid "For more information:"
+msgstr ""
+
+#: functions/mtaa/components/admin/settings-page.php:133
+#@ mtaa
+msgid "<a href=\"http://www.mtaandao.co.ke/support/documentation\" target=\"_blank\">Documentation and Tutorials</a>"
+msgstr ""
+
+#: functions/mtaa/components/admin/settings-page.php:134
+#@ mtaa
+msgid "<a href=\"http://www.mtaandao.co.ke/forum/\" target=\"_blank\">Support Forums</a>"
+msgstr ""
+
+#: functions/mtaa/components/video-thumb.php:86
+#@ mtaa
+msgid "<strong>NOTICE!&nbsp;&nbsp;Unable to fetch video thumbnail</strong><br/>Either an invalid embed code was provided, or there is no thumbnail available for the specified video&hellip;<br/><small id=\"mnz_autothumb_remind\"><strong>REMINDER:</strong> You can always manually upload a featured image via the Mtaandao Media Uploader.</small>"
+msgstr ""
+
+#: functions/theme/widgets/twitter.php:110
+#@ mtaa
+msgid "Twitter Username"
+msgstr ""
+
+#: functions/theme/widgets/twitter.php:115
+#@ mtaa
+msgid "Show"
+msgstr ""
+
+#: functions/theme/widgets/twitter.php:116
+#@ mtaa
+msgid "tweets"
+msgstr ""
+
+#: functions/theme/widgets/twitter.php:121
+#@ mtaa
+msgid "Hide Timestamp"
+msgstr ""
+
+#: functions/theme/widgets/twitter.php:126
+#@ mtaa
+msgid "Hide Tweet URL"
+msgstr ""
+
+#: functions/theme/widgets/twitter.php:131
+#@ mtaa
+msgid "Display Follow me button"
+msgstr ""
+
+#: functions/theme/widgets/twitter.php:136
+#@ mtaa
+msgid "Hide follower count?"
+msgstr ""
+
+#: functions/theme/widgets/twitter.php:146
+#@ mtaa
+msgid "Consumer key"
+msgstr ""
+
+#: functions/theme/widgets/twitter.php:151
+#@ mtaa
+msgid "Consumer secret"
+msgstr ""
+
+#: functions/theme/widgets/twitter.php:156
+#@ mtaa
+msgid "Access token"
+msgstr ""
+
+#: functions/theme/widgets/twitter.php:161
+#@ mtaa
+msgid "Access token secret"
+msgstr ""
+
+#: functions/theme/functions.php:119
+#: functions/theme/functions.php:149
+#@ mtaa
+msgid "View your shopping cart"
+msgstr ""
+
+#: functions/theme/functions.php:119
+#, php-format
+#@ mtaa
+msgid "%d item &ndash; "
+msgid_plural "%d items &ndash; "
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:81
+#@ mtaa
+msgid "Post Comment"
+msgstr ""
+
+#: content.php:14
+#: functions/theme/functions.php:185
+#@ mtaa
+msgid "Read More"
+msgstr ""
+
+#: content-single.php:73
+#: portfolio/single.php:74
+#@ mtaa
+msgid "Written by"
+msgstr ""
+
+#: functions/theme/functions.php:149
+#, php-format
+#@ mtaa
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/theme/widgets/portfolio-showcase.php:186
+#@ mtaa
+msgid "Display excerpts"
+msgstr ""
+
+#: functions/theme/post-options.php:34
+#@ mtaa
+msgid "optional"
+msgstr ""
+
+#: functions/theme/widgets/featured-products.php:12
+#@ mtaa
+msgid "Custom Mtaa widget that displays featured WooCommerce products"
+msgstr ""
+
+#: functions/theme/widgets/featured-products.php:18
+#@ mtaa
+msgid "Mtaa: Featured WooCommerce Products"
+msgstr ""
+
+#: functions/theme/widgets/instagram.php:50
+#@ mtaa
+msgid "Please set the Number of images to show within the widget"
+msgstr ""
+
+#: functions/theme/widgets/instagram.php:70
+#@ mtaa
+msgid "The user currently does not have any images..."
+msgstr ""
+
+#: functions/theme/widgets/instagram.php:109
+#: functions/theme/widgets/portfolio-scroller.php:179
+#@ mtaa
+msgid "Title:"
+msgstr ""
+
+#: functions/theme/widgets/instagram.php:114
+#@ mtaa
+msgid "User ID (not username):"
+msgstr ""
+
+#: functions/theme/widgets/instagram.php:119
+#@ mtaa
+msgid "Access Token:"
+msgstr ""
+
+#: functions/theme/widgets/instagram.php:127
+#@ mtaa
+msgid "Number of Images:"
+msgstr ""
+
+#: functions/theme/widgets/instagram.php:139
+#@ mtaa
+msgid "Link images to full image"
+msgstr ""
+
+#: functions/mtaa/components/medialib-uploader.php:40
+#@ mtaa
+msgid "Upgrade your version of Mtaandao for full media support."
+msgstr ""
+
+#: functions/mtaa/components/portfolio/portfolio.php:69
+#: functions/mtaa/components/portfolio/portfolio.php:81
+#@ mtaa
+msgid "Portfolio Items"
+msgstr ""
+
+#: functions/mtaa/components/portfolio/portfolio.php:70
+#: functions/mtaa/components/portfolio/portfolio.php:72
+#@ mtaa
+msgid "Portfolio Item"
+msgstr ""
+
+#: functions/mtaa/components/portfolio/portfolio.php:73
+#@ mtaa
+msgid "Add New"
+msgstr ""
+
+#: functions/mtaa/components/portfolio/portfolio.php:74
+#@ mtaa
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: functions/mtaa/components/portfolio/portfolio.php:75
+#@ mtaa
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: functions/mtaa/components/portfolio/portfolio.php:76
+#@ mtaa
+msgid "New Portfolio Item"
+msgstr ""
+
+#: functions/mtaa/components/portfolio/portfolio.php:77
+#@ mtaa
+msgid "View Portfolio Item"
+msgstr ""
+
+#: functions/mtaa/components/portfolio/portfolio.php:79
+#@ mtaa
+msgid "No portfolio items found"
+msgstr ""
+
+#: functions/mtaa/components/portfolio/portfolio.php:80
+#@ mtaa
+msgid "No portfolio items found in trash"
+msgstr ""
+
+#: functions/mtaa/components/portfolio/portfolio.php:120
+#: functions/mtaa/components/portfolio/portfolio.php:122
+#@ mtaa
+msgid "Portfolios"
+msgstr ""
+
+#: functions/mtaa/components/portfolio/portfolio.php:124
+#@ mtaa
+msgid "Search Portfolios"
+msgstr ""
+
+#: functions/mtaa/components/portfolio/portfolio.php:125
+#@ mtaa
+msgid "Popular Portfolios"
+msgstr ""
+
+#: functions/mtaa/components/portfolio/portfolio.php:126
+#@ mtaa
+msgid "All Portfolios"
+msgstr ""
+
+#: functions/mtaa/components/portfolio/portfolio.php:129
+#@ mtaa
+msgid "Update Portfolio"
+msgstr ""
+
+#: functions/mtaa/components/portfolio/portfolio.php:131
+#@ mtaa
+msgid "New Portfolio Name"
+msgstr ""
+
+#: functions/mtaa/components/portfolio/portfolio.php:132
+#@ mtaa
+msgid "Separate portfolios with commas"
+msgstr ""
+
+#: functions/mtaa/components/portfolio/portfolio.php:133
+#@ mtaa
+msgid "Add or remove portfolios"
+msgstr ""
+
+#: functions/mtaa/components/portfolio/portfolio.php:134
+#@ mtaa
+msgid "Choose from the most used portfolios"
+msgstr ""
+
+#: pagination.php:13
+#@ mtaa
+msgid "Previous"
+msgstr ""
+
+#: pagination.php:14
+#@ mtaa
+msgid "Next"
+msgstr ""
+
+#: functions/theme/widgets/single-page.php:121
+#@ mtaa
+msgid "To display a video in the widget, make sure to insert the <strong>embed code</strong> in the <strong>Excerpt</strong> field of the selected page."
+msgstr ""
+
+#: 404.php:7
+#@ mtaa
+msgid "Error 404"
+msgstr ""
+
+#: comments.php:60
+#@ mtaa
+msgid "Name:"
+msgstr ""
+
+#: comments.php:66
+#@ mtaa
+msgid "Email Address:"
+msgstr ""
+
+#: comments.php:71
+#@ mtaa
+msgid "Website:"
+msgstr ""
+
+#: comments.php:75
+#@ mtaa
+msgid "Message:"
+msgstr ""
+
+#: comments.php:79
+#@ mtaa
+msgid "Leave a Comment"
+msgstr ""
+
+#: content-none.php:9
+#@ mtaa
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:15
+#, php-format
+#@ mtaa
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:19
+#@ mtaa
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: content-none.php:24
+#@ mtaa
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: content-page.php:16
+#: content-single.php:31
+#@ mtaa
+msgid "Pages:"
+msgstr ""
+
+#: content-single.php:15
+#@ mtaa
+msgid "in"
+msgstr ""
+
+#: content-single.php:16
+#@ mtaa
+msgid "on"
+msgstr ""
+
+#: content-single.php:41
+#@ mtaa
+msgid "Tags"
+msgstr ""
+
+#: content-single.php:54
+#: portfolio/single.php:56
+#@ mtaa
+msgid "Share"
+msgstr ""
+
+#: content-single.php:56
+#: portfolio/single.php:58
+#@ mtaa
+msgid "Tweet this on Twitter"
+msgstr ""
+
+#: content-single.php:58
+#: portfolio/single.php:60
+#@ mtaa
+msgid "Share this on Facebook"
+msgstr ""
+
+#: content-single.php:60
+#: portfolio/single.php:62
+#@ mtaa
+msgid "Post this to Google+"
+msgstr ""
+
+#: footer.php:42
+#, php-format
+#@ mtaa
+msgid "Designed by %s"
+msgstr ""
+
+#: functions/theme/functions.php:50
+#@ mtaa
+msgid "Main Menu"
+msgstr ""
+
+#: functions/theme/functions.php:258
+#, php-format
+#@ mtaa
+msgid "%s @ %s"
+msgstr ""
+
+#: functions/theme/functions.php:296
+#@ mtaa
+msgid "Fullscreen Image"
+msgstr ""
+
+#: functions/theme/post-options.php:34
+#@ mtaa
+msgid "Slide URL"
+msgstr ""
+
+#: functions/theme/post-options.php:41
+#@ mtaa
+msgid "Slide Button"
+msgstr ""
+
+#: functions/theme/post-options.php:45
+#: functions/theme/post-options.php:52
+#@ mtaa
+msgid "(optional)"
+msgstr ""
+
+#: functions/theme/post-options.php:52
+#@ mtaa
+msgid "URL"
+msgstr ""
+
+#: functions/theme/widgets/portfolio-scroller.php:85
+#: functions/theme/widgets/portfolio-showcase.php:86
+#: portfolio/content.php:24
+#@ mtaa
+msgid "View More"
+msgstr ""
+
+#: functions/theme/widgets/portfolio-scroller.php:99
+#@ mtaa
+msgid "Nothing to display&hellip;"
+msgstr ""
+
+#: functions/theme/widgets/portfolio-scroller.php:186
+#@ mtaa
+msgid "Category:"
+msgstr ""
+
+#: functions/theme/widgets/portfolio-scroller.php:208
+#@ mtaa
+msgid "Visible Items:"
+msgstr ""
+
+#: functions/theme/widgets/portfolio-scroller.php:211
+#@ mtaa
+msgid "Number of portfolio itmes to show at one time"
+msgstr ""
+
+#: functions/theme/widgets/portfolio-scroller.php:216
+#@ mtaa
+msgid "Item Height:"
+msgstr ""
+
+#: functions/theme/widgets/portfolio-scroller.php:219
+#@ mtaa
+msgid "The height of the items in the scroller"
+msgstr ""
+
+#: functions/theme/widgets/portfolio-scroller.php:225
+#@ mtaa
+msgid "Hide post title"
+msgstr ""
+
+#: functions/theme/widgets/portfolio-scroller.php:232
+#@ mtaa
+msgid "Display post date"
+msgstr ""
+
+#: functions/theme/widgets/portfolio-scroller.php:237
+#@ mtaa
+msgid "Direction:"
+msgstr ""
+
+#: functions/theme/widgets/portfolio-scroller.php:238
+#@ mtaa
+msgid "Backward"
+msgstr ""
+
+#: functions/theme/widgets/portfolio-scroller.php:239
+#@ mtaa
+msgid "Forward"
+msgstr ""
+
+#: functions/theme/widgets/portfolio-scroller.php:240
+#@ mtaa
+msgid "The direction the scroller will go"
+msgstr ""
+
+#: functions/theme/widgets/portfolio-scroller.php:246
+#@ mtaa
+msgid "Auto-Scroll"
+msgstr ""
+
+#: functions/theme/widgets/portfolio-scroller.php:248
+#@ mtaa
+msgid "Automatically scroll through the portfolio items"
+msgstr ""
+
+#: functions/theme/widgets/portfolio-scroller.php:253
+#@ mtaa
+msgid "Auto-Scroll Speed:"
+msgstr ""
+
+#: functions/theme/widgets/portfolio-scroller.php:256
+#@ mtaa
+msgid "The speed of the scroller in milliseconds"
+msgstr ""
+
+#: functions/theme/widgets/portfolio-scroller.php:263
+#@ mtaa
+msgid "Pause on Hover"
+msgstr ""
+
+#: functions/theme/widgets/portfolio-scroller.php:265
+#@ mtaa
+msgid "Pause the scroller when the user hovers their mouse over it"
+msgstr ""
+
+#: functions/theme/widgets/single-page.php:115
+#@ mtaa
+msgid "Display Image/Video at the Top"
+msgstr ""
+
+#: header.php:21
+#@ mtaa
+msgid "Toggle navigation"
+msgstr ""
+
+#: index.php:21
+#@ mtaa
+msgid "Our Blog"
+msgstr ""
+
+#: portfolio/archive-infinite.php:16
+#: portfolio/archive-isotope.php:16
+#: portfolio/archive.php:16
+#: portfolio/taxonomy.php:15
+#@ mtaa
+msgid "All"
+msgstr ""
+
+#: mtaa-slider.php:56
+#@ mtaa
+msgid "You are now ready to set-up your Slideshow content."
+msgstr ""
+
+#: mtaa-slider.php:61
+#, php-format
+#@ mtaa
+msgid "For more information about adding posts to the slider, please <strong><a href=\"%1$s\">read the documentation</a></strong> or <a href=\"%2$s\">add a new post</a>."
+msgstr ""
+
+#: mtaa-slider.php:71
+#: mtaa-slider.php:72
+#@ mtaa
+msgid "Scroll to Content"
+msgstr ""
+
