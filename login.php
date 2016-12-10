@@ -227,7 +227,7 @@ function login_footer($input_id = '') {
 	if ( ! $interim_login ): ?>
 	<p id="backtoblog"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php
 		/* translators: %s: site title */
-		printf( _x( '&larr; Back to %s', 'site' ), get_bloginfo( 'title', 'display' ) );
+		printf( _x( 'Go to %s &rarr;', 'site' ), get_bloginfo( 'title', 'display' ) );
 	?></a></p>
 	<?php endif; ?>
 
@@ -426,6 +426,7 @@ do_action( 'login_init' );
 do_action( "login_form_{$action}" );
 
 $http_post = ('POST' == $_SERVER['REQUEST_METHOD']);
+
 $interim_login = isset($_REQUEST['interim-login']);
 
 switch ($action) {
@@ -439,7 +440,7 @@ case 'postpass' :
 	$hasher = new PasswordHash( 8, true );
 
 	/**
-	 * Filters the life span of the post password cookie.
+...	 * Filters the life span of the post password cookie.
 	 *
 	 * By default, the cookie expires 10 days from creation. To turn this
 	 * into a session cookie, return 0.
@@ -893,7 +894,14 @@ default:
 		$aria_describedby_error = '';
 	}
 ?>
-
+<center>
+<style type="text/css">
+	#loginForm .input {
+  position: relative;
+  text-align: center;
+  border-radius: 0;
+}
+</style>
 <form name="loginform" id="loginform" action="<?php echo esc_url( site_url( 'login.php', 'login_post' ) ); ?>" method="post">
 	<p>
 		<label for="user_login"><?php _e( 'Username or Email Address' ); ?><br />
@@ -925,6 +933,7 @@ default:
 		<input type="hidden" name="testcookie" value="1" />
 	</p>
 </form>
+</center>
 
 <?php if ( ! $interim_login ) { ?>
 <p id="nav">

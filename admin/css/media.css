@@ -177,7 +177,7 @@
 	margin-top: -22px;
 	-webkit-border-radius: 22px;
 	border-radius: 22px;
-	background-color: #0073aa;
+	background-color: #21b16e;
 	-webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.3);
 	box-shadow: inset 0 0 2px rgba(0,0,0,0.3);
 }
@@ -315,7 +315,7 @@
 
 #find-posts-close:hover,
 #find-posts-close:focus {
-	color: #00a0d2;
+	color: #21b68e;
 }
 
 #find-posts-close:focus {
@@ -1089,7 +1089,7 @@ border color while dragging a file over the uploader drop area */
 	margin: -1px 0 0 -1px;
 	padding: 0;
 	background: transparent;
-	color: #0074a2;
+	color: #21b68e;
 	font-size: 20px;
 	line-height: 1;
 	cursor: pointer;
@@ -1101,7 +1101,7 @@ border color while dragging a file over the uploader drop area */
 }
 
 .image-editor .imgedit-settings .imgedit-help-toggle:focus {
-	color: #0074a2;
+	color: #21b68e;
 	border-color: #5b9dd9;
 	outline: none;
 	-webkit-box-shadow: 0 0 3px rgba( 0, 115, 170, .8 );

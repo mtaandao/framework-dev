@@ -89,14 +89,14 @@
 .column-response .post-com-count-approved:focus .comment-count-approved,
 .column-comments .post-com-count-approved:hover .comment-count-approved,
 .column-comments .post-com-count-approved:focus .comment-count-approved {
-	background: #0073aa;
+	background: #21b16e;
 }
 
 .column-response .post-com-count-approved:hover:after,
 .column-response .post-com-count-approved:focus:after,
 .column-comments .post-com-count-approved:hover:after,
 .column-comments .post-com-count-approved:focus:after {
-	border-top-color: #0073aa;
+	border-top-color: #21b16e;
 }
 
 /* comments bubble pending */
@@ -233,7 +233,7 @@
 }
 
 #the-comment-list .unapproved th.check-column {
-	border-left: 4px solid #d54e21;
+	border-left: 4px solid #21b68e;
 }
 
 #the-comment-list .unapproved th.check-column input {
@@ -714,7 +714,7 @@ th.asc a:focus span.sorting-indicator {
 .tablenav .tablenav-pages a:focus {
 	border-color: #5b9dd9;
 	color: #fff;
-	background: #00a0d2;
+	background: #21b68e;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	outline: none; /* IE8 */
@@ -753,13 +753,13 @@ classes exist in paginate_links() but not seen in list table output. */
 .tablenav .next,
 .tablenav .prev {
 	border-color: transparent;
-	color: #0073aa;
+	color: #21b16e;
 }
 
 .tablenav .next:hover,
 .tablenav .prev:hover {
 	border-color: transparent;
-	color: #00a0d2;
+	color: #21b68e;
 }
 
 .tablenav .view-switch {
@@ -804,7 +804,7 @@ classes exist in paginate_links() but not seen in list table output. */
 }
 
 .view-switch a.current:before {
-	color: #0073aa;
+	color: #21b16e;
 }
 
 .view-switch .view-list:before {
@@ -1306,7 +1306,7 @@ ul.cat-checklist {
 
 .plugins .active th.check-column,
 .plugin-update-tr.active td {
-	border-left: 4px solid #00a0d2;
+	border-left: 4px solid #21b68e;
 }
 
 #mnbody-content .plugins .plugin-title,
@@ -2087,7 +2087,7 @@ div.action-links,
 	}
 
 	.plugins .active.update + .plugin-update-tr:before {
-		border-left: 4px solid #d54e21;
+		border-left: 4px solid #21b68e;
 		background-color: #fef7f1;
 	}
 
@@ -2101,7 +2101,7 @@ div.action-links,
 
 	.plugins .active.update + .plugin-update-tr:before {
 		background-color: #f7fcfe;
-		border-left: 4px solid #00a0d2;
+		border-left: 4px solid #21b68e;
 	}
 
 	.plugins .plugin-update-tr .update-message {

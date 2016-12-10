@@ -2748,11 +2748,11 @@ function _default_mn_die_handler( $message, $title = '', $args = array() ) {
 			font-size: 14px ;
 		}
 		a {
-			color: #0073aa;
+			color: #21b16e;
 		}
 		a:hover,
 		a:active {
-			color: #00a0d2;
+			color: #21b68e;
 		}
 		a:focus {
 			color: #124964;

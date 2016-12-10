@@ -321,7 +321,7 @@ ul.ddl-form { /* If .ddl-form class is added directly to <ul> element */
 .ddl-repeat-field-toolbar .icon-remove {
 	position: absolute;
 	right: 5px;
-	color: #d54e21;
+	color: #21b68e;
 	opacity: .8;
 	cursor: pointer;
 }
@@ -329,7 +329,7 @@ ul.ddl-form { /* If .ddl-form class is added directly to <ul> element */
 .ddl-repeat-field-toolbar .icon-resize-vertical {
 	display: inline-block;
 	width: 20px;
-	color: #0074a2;
+	color: #21b68e;
 	text-align: center;
 	opacity: .6;
 	cursor: ns-resize;

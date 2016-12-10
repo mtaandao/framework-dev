@@ -83,7 +83,7 @@ ul.add-menu-item-tabs li {
 	margin-top: 23px;
 	padding: 10px;
 	overflow: hidden;
-	background: #fbfbfb;
+	background: #cfcfcf;
 }
 
 .manage-menus .selected-menu,
@@ -595,7 +595,7 @@ body.menu-max-depth-11 { min-width: 1280px !important; }
 	height: auto;
 	margin-left: -10px !important;
 	padding: 12px 0;
-	color: #0073aa;
+	color: #21b16e;
 	text-decoration: underline;
 	font-size: 12px;
 	line-height: 18px;
@@ -664,14 +664,14 @@ body.menu-max-depth-11 { min-width: 1280px !important; }
 .menu-item-settings .field-move .button-link {
 	display: none;
 	margin: 0 2px;
-	color: #0073aa;
+	color: #21b16e;
 	font-style: italic;
 	text-decoration: underline;
 }
 
 .menu-item-settings .field-move .button-link:hover,
 .menu-item-settings .field-move .button-link:active {
-	color: #00a0d2;
+	color: #21b68e;
 }
 
 .menu-item-settings .field-move .button-link:focus {

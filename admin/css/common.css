@@ -147,7 +147,7 @@
 	font-weight: 600;
 	padding: 15px 23px 14px;
 	background: #f1f1f1;
-	color: #0073aa;
+	color: #21b16e;
 	z-index: 100000;
 	line-height: normal;
 	-webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,.6);
@@ -245,7 +245,7 @@ td {
 }
 
 a {
-	color: #0073aa;
+	color: #21b16e;
 	-webkit-transition-property: border, background, color;
 	transition-property: border, background, color;
 	-webkit-transition-duration: .05s;
@@ -261,7 +261,7 @@ div {
 
 a:hover,
 a:active {
-	color: #00a0d2;
+	color: #21b68e;
 }
 
 a:focus,
@@ -613,7 +613,7 @@ code {
 	font-weight: 600;
 	font-size: 13px;
 	line-height: normal; /* IE8-IE11 need this for buttons */
-	color: #0073aa; /* some of these controls are button elements and don't inherit from links */
+	color: #21b16e; /* some of these controls are button elements and don't inherit from links */
 	cursor: pointer;
 	outline: 0;
 }
@@ -625,7 +625,7 @@ code {
 .wrap .add-new-h2:hover, /* deprecated */
 .wrap .page-title-action:hover {
 	border-color: #008EC2;
-	background: #00a0d2;
+	background: #21b68e;
 	color: #fff;
 }
 
@@ -703,10 +703,10 @@ ul.striped > :nth-child(odd),
 
 .mn-ui-notification {
 	color: #fff;
-	background-color: #d54e21;
+	background-color: #21b68e;
 }
 .mn-ui-text-notification {
-	color: #d54e21;
+	color: #21b68e;
 }
 
 .mn-ui-text-icon {
@@ -801,7 +801,7 @@ img.emoji {
 	margin-left: 2px;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
-	color: #0073aa;
+	color: #21b16e;
 	/* vertically center the icon cross browsers */
 	line-height: 1.28;
 }
@@ -1054,7 +1054,7 @@ th.action-links {
 .filter-links li > a:focus,
 .show-filters .filter-links a.current:hover,
 .show-filters .filter-links a.current:focus {
-	color: #00a0d2;
+	color: #21b68e;
 }
 
 .mn-filter .search-form {
@@ -1108,7 +1108,7 @@ th.action-links {
 .mn-filter .button.drawer-toggle:focus,
 .mn-filter .drawer-toggle:focus:before {
 	background-color: transparent;
-	color: #00a0d2;
+	color: #21b68e;
 }
 
 .mn-filter .button.drawer-toggle:hover,
@@ -1242,14 +1242,14 @@ th.action-links {
 }
 
 .mn-filter .button-link.edit-filters {
-	color: #0073aa;
+	color: #21b16e;
 	text-decoration: underline;
 	padding: 0 5px;
 	line-height: 28px;
 }
 
 .mn-filter .button-link.edit-filters:hover {
-	color: #00a0d2;
+	color: #21b68e;
 }
 
 .mn-filter .button-link.edit-filters:focus {
@@ -1478,7 +1478,7 @@ div.error {
 }
 
 .notice-info {
-	border-left-color: #00a0d2;
+	border-left-color: #21b68e;
 }
 
 .notice-info.notice-alt {
@@ -1618,12 +1618,12 @@ form.upgrade .hint {
 }
 
 .notice .button-link {
-	color: #0073aa;
+	color: #21b16e;
 }
 
 .notice .button-link:hover,
 .notice .button-link:active {
-	color: #00a0d2;
+	color: #21b68e;
 }
 
 @media aural {
@@ -1892,7 +1892,7 @@ form.upgrade .hint {
 .contextual-help-tabs .active {
 	padding: 0;
 	margin: 0 -1px 0 0;
-	border-left: 2px solid #00a0d2;
+	border-left: 2px solid #21b68e;
 	background: #f6fbfd;
 	-webkit-box-shadow: 0 2px 0 rgba(0,0,0,0.02), 0 1px 0 rgba(0,0,0,0.02);
 	box-shadow: 0 2px 0 rgba(0,0,0,0.02), 0 1px 0 rgba(0,0,0,0.02);
@@ -3051,7 +3051,7 @@ body.update-core-php #TB_closeWindowButton:hover,
 body.update-core-php #TB_closeWindowButton:focus,
 body.index-php #TB_closeWindowButton:hover,
 body.index-php #TB_closeWindowButton:focus {
-	color: #00a0d2;
+	color: #21b68e;
 	outline: none;
 	-webkit-box-shadow: none;
 	box-shadow: none;

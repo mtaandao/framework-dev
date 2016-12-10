@@ -117,7 +117,7 @@ a.add:hover {
 .shortcode-list figcaption {}
 .shortcode-list li {float:left; margin:0 10px 10px 0}
 .shortcode-list figure img {opacity:0.5}
-.shortcode-list a:hover {border-color:#aaa; color:#2ea2cc}
+.shortcode-list a:hover {border-color:#aaa; color:#21b68e}
 .shortcode-list a {font-size:11px; text-decoration:none; color:#666; border:solid 1px #e1e1e1; background:#fff; padding:4px; text-align:center; display:block !important; width:70px; height:70px;}
 .shortcode-list li:nth-child(6n+6) { margin-right:0}
 

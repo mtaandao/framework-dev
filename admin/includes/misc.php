@@ -710,7 +710,7 @@ function mn_color_scheme_settings() {
 		$icon_colors = $_admin_css_colors['fresh']->icon_colors;
 	} else {
 		// Fall back to the default set of icon colors if the default scheme is missing.
-		$icon_colors = array( 'base' => '#82878c', 'focus' => '#00a0d2', 'current' => '#fff' );
+		$icon_colors = array( 'base' => '#82878c', 'focus' => '#21b68e', 'current' => '#fff' );
 	}
 
 	echo '<script type="text/javascript">var _mnColorScheme = ' . mn_json_encode( array( 'icons' => $icon_colors ) ) . ";</script>\n";

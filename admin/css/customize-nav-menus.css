@@ -25,13 +25,13 @@
 	margin-left: 6px;
 	vertical-align: middle;
 	line-height: 28px;
-	color: #0073aa;
+	color: #21b16e;
 	text-decoration: underline;
 }
 
 .customize-control-nav_menu_location .edit-menu:hover,
 .customize-control-nav_menu_location .edit-menu:active {
-	color: #00a0d2;
+	color: #21b68e;
 }
 
 .customize-control-nav_menu_location .edit-menu:focus {
@@ -70,7 +70,7 @@
 }
 
 .customize-control-nav_menu_item.has-notifications .menu-item-handle {
-	border-left: 4px solid #00a0d2;
+	border-left: 4px solid #21b68e;
 }
 
 .mn-customizer .menu-item-settings {
@@ -234,7 +234,7 @@
 #customize-controls .customize-info.open.active-menu-screen-options .customize-help-toggle:hover,
 #customize-controls .customize-info.open.active-menu-screen-options .customize-help-toggle:active,
 #customize-controls .customize-info.open.active-menu-screen-options .customize-help-toggle:focus {
-	color: #0073aa;
+	color: #21b16e;
 }
 
 .customize-screen-options-toggle:focus,
@@ -824,13 +824,13 @@ li.assigned-to-menu-location .add-new-menu-item {
 .menu-item-handle:hover {
 	position: relative;
 	z-index: 10;
-	color: #0073aa;
+	color: #21b16e;
 }
 
 .menu-item-handle:hover .item-type,
 .menu-item-handle:hover .item-edit,
 #available-menu-items .menu-item-handle:hover .item-add {
-	color: #0073aa;
+	color: #21b16e;
 }
 
 .menu-item-edit-active .menu-item-handle {

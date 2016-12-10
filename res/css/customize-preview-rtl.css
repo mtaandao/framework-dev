@@ -47,7 +47,7 @@
 	line-height: 1em !important;
 	font-size: 18px;
 	z-index: 5;
-	background: #0085ba !important;
+	background: #21b68e !important;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 	border: 2px solid #fff;
@@ -65,10 +65,10 @@
 	animation-duration: .4s;
 	opacity: 0;
 	pointer-events: none;
-	text-shadow: 0 -1px 1px #006799,
-	             -1px 0 1px #006799,
-	             0 1px 1px #006799,
-	             1px 0 1px #006799;
+	text-shadow: 0 -1px 1px #cfcfcf,
+	             -1px 0 1px #cfcfcf,
+	             0 1px 1px #cfcfcf,
+	             1px 0 1px #cfcfcf;
 }
 .mn-custom-header .customize-partial-edit-shortcut button {
 	right: 2px

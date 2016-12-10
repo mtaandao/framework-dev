@@ -67,7 +67,7 @@ html:not(.js) #header-outer .cart-menu-wrap {
 
 body[data-header-color="custom"] #header-outer .cart-menu { background-color: rgba(0,0,0,.03); }
 
-body[data-header-color="custom"] #boxed #header-outer .cart-menu { background-color: #fbfbfb; }
+body[data-header-color="custom"] #boxed #header-outer .cart-menu { background-color: #cfcfcf; }
 body[data-header-color="custom"]:not(.ascend) #boxed #header-outer .cart-menu .cart-icon-wrap i { color: #A0A0A0!important; }
 
 #header-outer .cart-menu .icon-shopping-cart {

@@ -16,12 +16,12 @@ body {
 }
 
 a {
-	color: #0073aa;
+	color: #21b16e;
 }
 
 a:hover,
 a:active {
-	color: #00a0d2;
+	color: #21b68e;
 }
 
 a:focus {

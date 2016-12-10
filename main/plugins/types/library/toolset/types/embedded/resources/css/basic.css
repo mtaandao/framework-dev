@@ -224,7 +224,7 @@ body.admin .mncf-ui-dialog .ui-dialog-titlebar
 .mncf-choose-field .mncf-form-button:hover i
 ,body.admin .mncf-ui-dialog .ui-dialog-titlebar-close:hover
 {
-    color: #00a0d2;
+    color: #21b68e;
 }
 
 body.admin .mncf-ui-dialog .ui-dialog-titlebar
@@ -633,7 +633,7 @@ input.mncf-form-error {
 
 .mncf-help-link:hover {
     text-decoration:underline !important;
-    color:#d54e21 !important;
+    color:#21b68e !important;
     background-position:0 -19px;
 }
 
@@ -883,7 +883,7 @@ input.mncf-form-error {
 
 .types-marketing-views .more
 {
-    color: #0073aa;
+    color: #21b16e;
     text-decoration: underline;
 }
 
@@ -1008,7 +1008,7 @@ body.admin .mncf-ui-dialog.mncf-filter-dialog .ui-dialog-titlebar {
 }
 
 .mncf-tabs-menu span {
-    color: #0073aa;
+    color: #21b16e;
     font-weight: normal;
     cursor: pointer;
     display: inline-block;
@@ -1285,7 +1285,7 @@ button .ui-button-icon-primary
 .mncf-choose-field .mncf-form-button:hover i
 ,.mncf-tooltip
 {
-    color: #00a0d2;
+    color: #21b68e;
 }
 
 body .mncf-choose-field button.mncf-form-button span

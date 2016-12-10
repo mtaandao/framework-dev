@@ -260,14 +260,14 @@
     display: block;
     margin: 0;
     height: 3px;
-    background: #0074a2;
+    background: #21b68e;
     text-indent: 100%;
     white-space: nowrap;
 }
 .codemirror-bookmarks li.active,
 .codemirror-bookmarks li:hover {
     left: -4px;
-    background: #0074a2;
+    background: #21b68e;
     cursor: default;
     transition: left 0.1s;
 }
@@ -485,7 +485,7 @@ div.dialog-change-use-messages p .toolset-alert-close{top:6px;}
 .ddl-dialog .ddl-dialog-content-main{border:none;background: transparent;padding-left:0px !important;padding-right:0px !important;}
 .ddl-dialog .ui-tabs-nav li.ddl-tab-right {margin-right:0px;}
 .ddl-dialog .ddl-dialog-content-main .ddl-form{padding:10px;margin-bottom:0;}
-p.desc a.fieldset-inputs{color:#0074a2;}
+p.desc a.fieldset-inputs{color:#21b68e;}
 
 .individual-pages-wrap .ui-widget-content{background:transparent;border:none;}
 .individual-pages-wrap .ui-widget-header{border:none;background:transparent;margin-bottom: 14px;padding-bottom: 0px;}
@@ -499,7 +499,7 @@ p.desc a.fieldset-inputs{color:#0074a2;}
 .ddl-dialog .ui-widget, .ddl-dialog .ui-widget input, .ddl-dialog .ui-widget select, .ddl-dialog .ui-widget textarea, .ddl-dialog .ui-widget button{font-family: "Open Sans",sans-serif;}
 .ddl-dialog .ui-widget button.qt-fullscreen{font: 400 20px/1 dashicons;}
 .ddl-dialog .ui-widget-header, .ui-widget-header *{font-weight: normal;}
-.ddl-dialog .ui-widget-content a.fieldset-inputs{color:#0074a2;}
+.ddl-dialog .ui-widget-content a.fieldset-inputs{color:#21b68e;}
 
 /* Change Layout Use Dialog End*/
 
@@ -516,7 +516,7 @@ p.desc a.fieldset-inputs{color:#0074a2;}
 }
 
 .individual-pages-list .icon-remove:hover {
-    color: #d54e21;
+    color: #21b68e;
 }
 
 .ddl-posts-check-list {
@@ -546,7 +546,7 @@ span.individual-quick-search-desc{color: #999;font-size: 10px;float:left;margin:
 }
 .ddl-link-text{
     text-decoration: underline;
-    color:#0074a2;
+    color:#21b68e;
 }
 /* Posts loop preview */
 .ddl-post-loop-item-preview{
@@ -556,7 +556,7 @@ span.individual-quick-search-desc{color: #999;font-size: 10px;float:left;margin:
     margin: 0;
 }
 .ddl-post-loop-item-preview h2{
-    color:#0074a2;
+    color:#21b68e;
     font-size:14px;
     cursor: pointer;
     font-weight: bold;
@@ -1240,6 +1240,6 @@ a.ddl-help-link-link{font-size:12px;}
     -webkit-font-smoothing: antialiased;
     content: "\f00d";
 }
-.ddl-dialogs-container .ui-dialog-titlebar-close:hover{color:#00a0d2!important;}
+.ddl-dialogs-container .ui-dialog-titlebar-close:hover{color:#21b68e!important;}
 .ddl-fields-description-wrap h4{margin-bottom:2px;padding-bottom: 0px;margin-top:0px;padding-top: 0px;}
 p.ddl-fields-description{padding-top:2px;margin-top:0px;padding-bottom: 12px;font-size: 12px;}

@@ -34,7 +34,6 @@ class MN_User_Avatar_Admin {
     add_filter('whitelist_options', array($this, 'mnua_whitelist_options'), 10);
     // Additional plugin info
     add_filter('plugin_action_links', array($this, 'mnua_action_links'), 10, 2);
-    add_filter('plugin_row_meta', array($this, 'mnua_row_meta'), 10, 2);
     // Hide column in Users table if default avatars are enabled
     if((bool) $show_avatars == 0) {
       add_filter('manage_users_columns', array($this, 'mnua_add_column'), 10, 1);

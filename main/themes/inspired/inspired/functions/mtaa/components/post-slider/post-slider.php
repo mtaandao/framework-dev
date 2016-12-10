@@ -201,9 +201,9 @@ class Mtaa_Post_Slider {
         .mtaa_slide_actions span.mtaa_slide_clear_image_button { /*border-left: 0; -moz-border-radius-bottomright: 4px; -webkit-border-bottom-right-radius: 4px; border-bottom-right-radius: 4px;*/ }
         .mtaa_slide_type span { cursor: default !important; font-size: 10px !important; line-height: 16px !important; height: auto !important; }
         a.mtaa_slide_type_image { cursor: default; font-weight: bold; color: #555; }
-        a.mtaa_slide_type_video:hover, a.mtaa_slide_type_video:active { color: #d54e21; }
+        a.mtaa_slide_type_video:hover, a.mtaa_slide_type_video:active { color: #21b68e; }
         .video a.mtaa_slide_type_image { cursor: pointer; font-weight: normal; color: #21759b; }
-        .video a.mtaa_slide_type_image:hover, .video a.mtaa_slide_type_image:active { color: #d54e21; }
+        .video a.mtaa_slide_type_image:hover, .video a.mtaa_slide_type_image:active { color: #21b68e; }
         .video a.mtaa_slide_type_video { cursor: default; font-weight: bold; color: #555; }
         .mtaa_slider li .mtaa_slide_caption { width: 100%; resize:vertical; }
         .mtaa_slider li .mtaa_slide_url { width: 100%; margin:6px 0 0; }

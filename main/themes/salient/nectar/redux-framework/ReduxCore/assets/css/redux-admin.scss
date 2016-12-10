@@ -1164,7 +1164,7 @@ pre {
 
 /* Light fresh theme */
 .admin-color-fresh, .mn-customizer {
-    @include adminThemeColorOverrides(#a0a5aa, #0073aa, #23282d, #1e8cbe);
+    @include adminThemeColorOverrides(#a0a5aa, #21b16e, #23282d, #1e8cbe);
 }
 
 /* Light admin theme */
@@ -1215,7 +1215,7 @@ pre {
             -moz-transition: all 0.3s;
             transition: all 0.3s;
             &:hover {
-                //color: #2ea2cc;
+                //color: #21b68e;
                 //background: black;
                 background: #e5e5e5;
             }

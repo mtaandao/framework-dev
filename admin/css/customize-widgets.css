@@ -192,7 +192,7 @@
 #customize-theme-controls .widget-area-select .selected {
 	color: #fff;
 	text-shadow: 0 -1px 0 rgba(0,0,0,.4);
-	background: #00a0d2;
+	background: #21b68e;
 }
 
 #customize-theme-controls .widget-area-select .selected:before {
@@ -231,8 +231,8 @@
 #available-widgets .widget-tpl.selected {
 	background: #f3f3f5;
 	border-bottom-color: #ccc;
-	color: #0073aa;
-	border-left: 4px solid #0073aa;
+	color: #21b16e;
+	border-left: 4px solid #21b16e;
 }
 
 #customize-controls .widget-title h3 {

@@ -17,14 +17,14 @@
 	line-height: 1.4em;
 	font-size: 14px;
 	color: #fff;
-	background: #00a0d2;
+	background: #21b68e;
 }
 
 .mn-pointer-content h3:before {
 	background: #fff;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
-	color: #00a0d2;
+	color: #21b68e;
 	content: "\f227";
 	font: normal 20px/1.6 dashicons;
 	position: absolute;
@@ -147,7 +147,7 @@
 	margin-left: -13px;
 	margin-top: -13px;
 	border: 13px solid transparent;
-	border-bottom-color: #00a0d2;
+	border-bottom-color: #21b68e;
 	display: block;
 	content: " ";
 }

@@ -101,7 +101,7 @@ input[type="radio"]:checked + label:before {
 
 .mn-core-ui input[type="reset"]:hover,
 .mn-core-ui input[type="reset"]:active {
-	color: #00a0d2;
+	color: #21b68e;
 }
 
 td > input[type="checkbox"],
@@ -604,7 +604,7 @@ ul#add-to-blog-users {
 
 /* Colors for the tags autocomplete. */
 .mn-tags-autocomplete .ui-state-focus {
-	background-color: #0073aa;
+	background-color: #21b16e;
 	color: #fff;
 }
 

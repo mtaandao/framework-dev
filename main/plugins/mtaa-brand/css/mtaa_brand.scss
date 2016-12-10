@@ -605,7 +605,7 @@ html.mn-toolbar {
 #mnadminbar:not(.mobile)>#mn-toolbar a:focus span.ab-label,
 #mnadminbar:not(.mobile)>#mn-toolbar li:hover span.ab-label,
 #mnadminbar>#mn-toolbar li.hover span.ab-label {
-	color: #2ea2cc;
+	color: #21b68e;
 }
 // Admin Bar Submenu Text Color
 #mnadminbar .ab-submenu .ab-item, 
@@ -894,7 +894,7 @@ div.updated {
 #adminmenu li a:focus div.mn-menu-image:before,
 #adminmenu li.opensub div.mn-menu-image:before,
 #adminmenu li:hover div.mn-menu-image:before {
-	color: #2ea2cc;
+	color: #21b68e;
 }
 // Selected Top Level Menu Color
 #adminmenu li.current a.menu-top,
@@ -978,7 +978,7 @@ div.updated {
 }
 // Floating Submenu Background
 #adminmenu .mn-submenu {
-	background: #2ea2cc;
+	background: #21b68e;
 }
 // Floating Submenu Text Color
 #adminmenu .opensub .mn-submenu a {
@@ -1083,7 +1083,7 @@ div.updated {
 }
 // Submenu Arrow Color
 #adminmenu li.mn-has-submenu.mn-not-current-submenu.opensub:hover:after {
-	border-right-color: #2ea2cc;
+	border-right-color: #21b68e;
 }
 ul#adminmenu a.mn-has-current-submenu:after, 
 ul#adminmenu>li.current>a.current:after {
@@ -1490,8 +1490,8 @@ div.mce-toolbar-grp > .mce-container-body {
 }
 .mn-core-ui .button-primary,
 .mn-core-ui .postbox .button-primary {
-	background: #2ea2cc;
-	border-color: #2ea2cc;
+	background: #21b68e;
+	border-color: #21b68e;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	color: #fff;
@@ -1499,7 +1499,7 @@ div.mce-toolbar-grp > .mce-container-body {
 }
 .mn-core-ui .button-primary:hover,
 .mn-core-ui .postbox .button-primary:hover {
-	border-color: #0074a2;
+	border-color: #21b68e;
 }
 #major-publishing-actions {
 	background: none;
@@ -1772,7 +1772,7 @@ table.comments .alternate,
 	margin: 0;
 }
 .welcome-panel-content h3 {
-	color: #2ea2cc;
+	color: #21b68e;
 	font-size: 20px;
 	font-weight: 600;
 }

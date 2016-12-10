@@ -3004,7 +3004,7 @@ object {
 --------------------------------------------------------------*/
 
 .highlight-front-sections.twentyseventeen-customizer.twentyseventeen-front-page .twentyseventeen-panel:after {
-	border: 2px dashed #0085ba; /* Matches visible edit shortcuts. */
+	border: 2px dashed #21b68e; /* Matches visible edit shortcuts. */
 	bottom: 1em;
 	content: "";
 	display: block;

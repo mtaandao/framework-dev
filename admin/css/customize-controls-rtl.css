@@ -147,7 +147,7 @@ body {
 #customize-controls .customize-info.open .customize-help-toggle,
 #customize-controls .customize-info .customize-help-toggle:focus,
 #customize-controls .customize-info .customize-help-toggle:hover {
-	color: #0073aa;
+	color: #21b16e;
 }
 
 #customize-controls .customize-info .customize-panel-description,
@@ -219,9 +219,9 @@ body {
 #customize-controls .control-section .accordion-section-title:hover,
 #customize-controls .control-section.open .accordion-section-title,
 #customize-controls .control-section .accordion-section-title:focus {
-	color: #0073aa;
+	color: #21b16e;
 	background: #f3f3f5;
-	border-right-color: #0073aa;
+	border-right-color: #21b16e;
 }
 
 #accordion-section-themes + .control-section {
@@ -239,7 +239,7 @@ body {
 #customize-theme-controls .control-section .accordion-section-title:hover:after,
 #customize-theme-controls .control-section.open .accordion-section-title:after,
 #customize-theme-controls .control-section .accordion-section-title:focus:after {
-	color: #0073aa;
+	color: #21b16e;
 }
 
 #customize-theme-controls .control-section.open {
@@ -515,8 +515,8 @@ h3.customize-section-title {
 .customize-controls-preview-toggle:focus,
 .customize-controls-preview-toggle:hover {
 	background: #fff;
-	color: #0073aa;
-	border-top-color: #0073aa;
+	color: #21b16e;
+	border-top-color: #21b16e;
 	outline: none;
 	-webkit-box-shadow: none;
 	box-shadow: none;
@@ -527,9 +527,9 @@ h3.customize-section-title {
 .customize-panel-back:focus,
 .customize-section-back:hover,
 .customize-section-back:focus {
-	color: #0073aa;
+	color: #21b16e;
 	background: #f3f3f5;
-	border-right-color: #0073aa;
+	border-right-color: #21b16e;
 	outline: none;
 	-webkit-box-shadow: none;
 	box-shadow: none;
@@ -762,7 +762,7 @@ p.customize-section-description {
 
 .customize-control-dropdown-pages .add-new-toggle {
 	margin-right: 1px;
-	color: #0073aa;
+	color: #21b16e;
 	font-weight: 600;
 	line-height: 28px;
 	text-decoration: underline;
@@ -770,7 +770,7 @@ p.customize-section-description {
 
 .customize-control-dropdown-pages .add-new-toggle:hover,
 .customize-control-dropdown-pages .add-new-toggle:active {
-	color: #00a0d2;
+	color: #21b68e;
 }
 
 .customize-control-dropdown-pages .add-new-toggle:focus {
@@ -1033,7 +1033,7 @@ p.customize-section-description {
 	position: absolute;
 	height: auto;
 	top: 0; right: 0; bottom: 0; left: 0;
-	border: 4px solid #00a0d2;
+	border: 4px solid #21b68e;
 	-webkit-border-radius: 2px;
 	border-radius: 2px;
 }
@@ -1473,7 +1473,7 @@ body.cheatin p {
 
 /* Reordering */
 .reorder-toggle {
-	color: #0073aa;
+	color: #21b16e;
 	float: left;
 	padding: 5px 8px;
 	text-decoration: none;
@@ -1486,7 +1486,7 @@ body.cheatin p {
 }
 
 .reorder-toggle:hover {
-	color: #00a0d2;
+	color: #21b68e;
 }
 
 .reorder-toggle:focus {
@@ -1502,13 +1502,13 @@ body.cheatin p {
 .reorder-done,
 .reordering .reorder {
 	display: none;
-	color: #0073aa;
+	color: #21b16e;
 }
 
 .reorder-toggle:hover .reorder-done,
 .reorder-toggle:active .reorder-done,
 .reorder-toggle:focus .reorder-done {
-	color: #00a0d2;
+	color: #21b68e;
 }
 
 .widget-reorder-nav span,

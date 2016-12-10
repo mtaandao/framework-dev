@@ -983,7 +983,7 @@ function is_admin_bar_showing() {
 	 */
 	$show_admin_bar = apply_filters( 'show_admin_bar', $show_admin_bar );
 
-	return $show_admin_bar;
+	return false;
 }
 
 /**
@@ -1010,8 +1010,8 @@ function _get_admin_bar_pref( $context = 'front', $user = 0 ) {
       display: block;
       right: 0;
       top: 0;
-      margin-right: 10px;
-      margin-top: 10px;
+      margin-right: 15px;
+      margin-top: 15px;
       color: white;
       z-index: 900;
       text-decoration: none;
@@ -1063,22 +1063,22 @@ function _get_admin_bar_pref( $context = 'front', $user = 0 ) {
       margin-bottom: 200px;
       z-index: 900;
 }
-      #login {
+      #login_front {
       position: fixed;
       display: block;
       right: 0;
-      top: 0;
+      bottom: 0;
       margin-right: 15px;
-      margin-top: 70px;
+      margin-bottom: 365px;
       z-index: 900;
 }
       #register {
       position: fixed;
       display: block;
       right: 0;
-      top: 0;
+      bottom: 0;
       margin-right: 15px;
-      margin-top: 130px;
+      margin-bottom: 425px;
       z-index: 900;
 }
       #hide {
@@ -1143,6 +1143,7 @@ function _get_admin_bar_pref( $context = 'front', $user = 0 ) {
       margin-right: 80px;
       margin-bottom: 305px;
       z-index: 900;
+      color:#3b5998;
 }
 </style>
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -1175,7 +1176,7 @@ else if ( !is_user_logged_in() ) {
 ?>
 <div id="on_front_logged_out">
 <moren>
-<a href="<?php echo esc_url( home_url( '/' ). 'login.php' ); ?>" target="_self" id="login"><button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+<a href="<?php echo esc_url( home_url( '/' ). 'login.php' ); ?>" target="_self" id="login_front"><button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
   <i class="material-icons">account_circle</i>
 </button></a>
 <a href="<?php echo esc_url( home_url( '/' ). 'register.php' ); ?>" target="_self" id="register"><button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
@@ -1184,9 +1185,7 @@ else if ( !is_user_logged_in() ) {
 </moren>
 </div>
 <?php }
-
-else {
-	?>
+?>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
@@ -1206,35 +1205,35 @@ $(document).ready(function(){
     });
 });
 </script>
-<spand>
+<spand style="display: none;">
 <a id="share-facebook" href="http://www.facebook.com/sharer.php?u=[post-url]">
     <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
-  <i class="fa fa-facebook"></i>
+  <i class="fa fa-facebook" style="color:#3b5998"></i>
 </button></a>
 <a id="share-twitter" href="http://twitter.com/share?url=<URL>&text=<TEXT>via=<USERNAME>">
     <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
-  <i class="fa fa-twitter"></i>
+  <i class="fa fa-twitter" style="color:#55acee"></i>
 </button></a>
 <a id="share-google" href="http://twitter.com/share?url=<URL>&text=<TEXT>via=<USERNAME>">
     <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
-  <i class="fa fa-google-plus"></i>
+  <i class="fa fa-google-plus" style="color:#dd4b39"></i>
 </button></a>
 <a id="share-email" href="mailto:sample@email.com" data-rel="external">
     <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
-  <i class="fa fa-envelope"></i>
+  <i class="fa fa-envelope" style="color:#21b68e"></i>
 </button></a>
 <a id="share-whatsapp" href="whatsapp://send?text=The text to share!" data-action="share/whatsapp/share">
     <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
-  <i class="fa fa-whatsapp"></i>
+  <i class="fa fa-whatsapp" style="color:#4dc247"></i>
 </button></a>
+<a id="hide" href="#"><button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect" id="hide"><i class="material-icons" style="color:red">highlight_off</i></button></a>
 </spand>
-<div><a id="hide" href="#"><button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect" id="hide"><i class="material-icons">highlight_off</i></button></a>
 <a id="show" href="#">
     <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
   <i class="fa fa-share-alt"></i></button></a>
+  </div>
 <div>
-<a href="#"><i id="more_vert" class="material-icons">more_vert</i></a>
-
-<?php }
-} ?>
+<a id="more_vert" href="#"><i class="material-icons">more_vert</i></a>
+</div>
+<?php } ?>
 <?php

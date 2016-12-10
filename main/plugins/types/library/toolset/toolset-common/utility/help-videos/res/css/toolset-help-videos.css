@@ -36,7 +36,7 @@
 .toolset-box-content{margin-bottom:2px;}
 .remove-video{float:right;}
 .remove-video-icon{font-size:16px;margin-right:2px;}
-.remove-video-icon:hover{color:#0073aa;}
+.remove-video-icon:hover{color:#21b16e;}
 .toolset-box-footer{
     position: relative;
     width:100%;
@@ -86,7 +86,7 @@ span.mejs-offscreen{display:none!important;}
 .video-title-alone{cursor:pointer;}
 /**** LIST *****/
 .js-video-list{
-    color:#0073aa;
+    color:#21b16e;
     cursor:pointer;
 }
 .toolset-video-icon{

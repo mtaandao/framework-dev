@@ -23,7 +23,7 @@
 }
 
 .mejs-controls .mejs-time-rail .mejs-time-current {
-	background: #0073aa;
+	background: #21b16e;
 }
 
 .mejs-controls .mejs-time-rail .mejs-time-total,
@@ -47,7 +47,7 @@
 	border-radius: 3px;
 	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
 	clip: auto;
-	color: #0073aa;
+	color: #21b16e;
 	display: block;
 	font-size: 14px;
 	font-weight: bold;

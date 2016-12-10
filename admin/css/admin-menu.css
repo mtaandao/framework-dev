@@ -254,7 +254,7 @@
 #adminmenu .mn-menu-arrow,
 #adminmenu .mn-has-current-submenu .mn-submenu .mn-submenu-head,
 #adminmenu .mn-menu-arrow div {
-	background: #0073aa;
+	background: #21b16e;
 	color: #fff;
 }
 
@@ -519,7 +519,7 @@ ul#adminmenu > li.current > a.current:after {
 #adminmenu .awaiting-mod,
 #adminmenu .update-plugins {
 	display: inline-block;
-	background-color: #d54e21;
+	background-color: #21b68e;
 	color: #fff;
 	font-size: 9px;
 	line-height: 17px;

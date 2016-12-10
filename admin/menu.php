@@ -153,7 +153,7 @@ $menu[59] = array( '', 'read', 'separator2', '', 'mn-menu-separator' );
 
 $appearance_cap = current_user_can( 'switch_themes') ? 'switch_themes' : 'edit_theme_options';
 
-$menu[60] = array( __( 'Appearance' ), $appearance_cap, 'themes.php', '', 'menu-top menu-icon-appearance', 'menu-appearance', 'dashicons-art' );
+$menu[60] = array( __( 'Design' ), $appearance_cap, 'themes.php', '', 'menu-top menu-icon-appearance', 'menu-appearance', 'dashicons-art' );
 	$submenu['themes.php'][5] = array( __( 'Design' ), $appearance_cap, 'themes.php' );
 
 	$customize_url = add_query_arg( 'return', urlencode( mn_unslash( $_SERVER['REQUEST_URI'] ) ), 'customize.php' );
