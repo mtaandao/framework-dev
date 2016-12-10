@@ -1185,6 +1185,8 @@ else if ( !is_user_logged_in() ) {
 </moren>
 </div>
 <?php }
+	global $mn;
+$current_url = add_query_arg( $mn->query_string, '', home_url( $mn->request ) );
 ?>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script>
@@ -1214,11 +1216,11 @@ $(document).ready(function(){
     <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
   <i class="fa fa-twitter" style="color:#55acee"></i>
 </button></a>
-<a id="share-google" href="http://twitter.com/share?url=<URL>&text=<TEXT>via=<USERNAME>">
+<a id="share-google" href="http://twitter.com/share?url=<?php $current_url ?>&text=<TEXT>via=<USERNAME>">
     <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
   <i class="fa fa-google-plus" style="color:#dd4b39"></i>
 </button></a>
-<a id="share-email" href="mailto:sample@email.com" data-rel="external">
+<a id="share-email" href="mailto:<?php get_bloginfo ( $show = 'admin_email', $filter = 'raw' ) ?>" data-rel="external">
     <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
   <i class="fa fa-envelope" style="color:#21b68e"></i>
 </button></a>
